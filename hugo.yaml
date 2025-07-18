@@ -27,7 +27,7 @@ params:
   podcast_guid: '1234567890'
 
 permalinks:
-  posts: '/:filename/'
+  episodes: '/:filename/'
 
 outputFormats:
   RSS:

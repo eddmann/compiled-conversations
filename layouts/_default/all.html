@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="mt-7">
   <div class="grid gap-12 border-t-2 border-gray-100 py-8">
-    {{ range (sort (where .Site.RegularPages "Type" "posts") "Date" "desc") }}
+    {{ range (sort (where .Site.RegularPages "Type" "episodes") "Date" "desc") }}
     <div class="relative">
       <p class="text-sm leading-5 text-gray-500">
         <time datetime="{{ .Date.Format "2006-1-2" }}">{{ .Date.Format .Site.Params.date_format }}</time>

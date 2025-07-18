@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div class="mt-7">
   <div class="mt-6 grid gap-12 border-t-2 border-gray-100 py-8">
-    {{ $posts := sort (where .Site.RegularPages "Type" "posts") "Date" "desc" }}
-    {{ range first 10 $posts }}
+    {{ $episodes := sort (where .Site.RegularPages "Type" "episodes") "Date" "desc" }}
+    {{ range first 10 $episodes }}
     <div class="relative">
       <p class="text-sm leading-5 text-gray-500">
         <time datetime="{{ .Date.Format "2006-1-2" }}">{{ .Date.Format .Site.Params.date_format }}</time>
@@ -24,7 +24,7 @@
     {{ end }}
   </div>
 </div>
-{{ if gt $posts 10 }}
+{{ if gt $episodes 10 }}
 <div class="grid gap-16 border-t-2 border-gray-100 py-10">
   <a class="text-base leading-6 font-semibold text-teal-600 hover:text-teal-700" href="{{ "all" | relURL }}">{{ .Site.Params.all_episodes_label }} →</a>
 </div>

@@ -1,5 +1,5 @@
 {{- $baseUrl := .Site.BaseURL -}}
-{{- $episodes := sort (where .Site.RegularPages "Type" "posts") "Date" "desc" -}}
+{{- $episodes := sort (where .Site.RegularPages "Type" "episodes") "Date" "desc" -}}
 {{- $latest := index $episodes 0 -}}
 {{- printf "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" | safeHTML -}}
  <rss version="2.0"
