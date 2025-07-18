@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@source 'hugo_stats.json';
+
+@theme {
+  --font-body: 'Merriweather', 'ui-sans-serif', 'system-ui', 'sans-serif';
+  --font-heading: 'Lato', 'ui-sans-serif', 'system-ui', 'sans-serif';
+}

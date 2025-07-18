@@ -1,0 +1,62 @@
+languageCode: 'en-GB'
+title: 'Compiled Conversations'
+baseURL: 'https://compiledconversations.com'
+enableRobotsTXT: true
+
+services:
+  googleAnalytics:
+    id: ''
+
+params:
+  description: 'Weekly(ish) podcast on all things software development.'
+  author: 'Edd Mann'
+  host: 'Edd Mann'
+  host_url: 'https://eddmann.com'
+  email: 'the@eddmann.com'
+  font_headings: 'Lato'
+  font_body: 'Merriweather'
+  font_css: 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap'
+  apple_podcasts_url: ''
+  spotify_url: ''
+  cover_image: '/album-art.png'
+  show_notes_label: 'Show notes'
+  all_episodes_label: 'All episodes'
+  audio_player_color: 'teal'
+  date_format: 'Jan 2, 2006'
+  itunes_keywords: 'technology, software, web, development'
+  podcast_guid: '1234567890'
+
+permalinks:
+  posts: '/:filename/'
+
+outputFormats:
+  RSS:
+    mediaType: 'application/rss+xml'
+    baseName: 'podcast'
+    isPlainText: false
+    notAlternative: false
+
+outputs:
+  home: ['HTML', 'RSS']
+  page: ['HTML']
+  section: ['HTML']
+
+disableKinds:
+  - taxonomy
+  - term
+
+build:
+  buildStats:
+    enable: true
+  cachebusters:
+    - source: assets/notwatching/hugo_stats\.json
+      target: css
+    - source: (postcss|tailwind)\.config\.js
+      target: css
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - disableWatch: true
+      source: hugo_stats.json
+      target: assets/notwatching/hugo_stats.json
