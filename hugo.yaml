@@ -32,7 +32,7 @@ permalinks:
 outputFormats:
   RSS:
     mediaType: 'application/rss+xml'
-    baseName: 'podcast'
+    baseName: 'rss'
     isPlainText: false
     notAlternative: false
 
