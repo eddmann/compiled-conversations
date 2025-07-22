@@ -37,7 +37,7 @@
       <itunes:name>{{ .Site.Params.author }}</itunes:name>
     </itunes:owner>
     <itunes:complete>No</itunes:complete>
-    <itunes:explicit>No</itunes:explicit>
+    <itunes:explicit>false</itunes:explicit>
     {{ range $episodes }}
     <item>
       <title>{{ .Title }}</title>
@@ -57,7 +57,7 @@
       <itunes:summary>{{ "<![CDATA[" | safeHTML }}{{ .Description }}{{ "]]>" | safeHTML }}</itunes:summary>
       <itunes:subtitle>{{ "<![CDATA[" | safeHTML }}{{ .Description }}{{ "]]>" | safeHTML }}</itunes:subtitle>
       <itunes:keywords>{{ $.Site.Params.itunes_keywords }}</itunes:keywords>
-      <itunes:explicit>No</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
     </item>
     {{ end }}
   </channel>
