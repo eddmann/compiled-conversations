@@ -2,7 +2,7 @@
 <main class="mt-7" role="main">
   <section aria-label="Latest episodes">
     <div class="grid gap-12 border-t-2 border-gray-100 py-8">
-      {{ $episodes := sort (where .Site.RegularPages "Type" "episodes") "Date" "desc" }}
+      {{ $episodes := sort (where .Site.RegularPages "Type" "episodes") "File.BaseFileName" "desc" }}
       {{ range first 10 $episodes }}
         {{ partial "episode-preview.html" . }}
       {{ end }}
