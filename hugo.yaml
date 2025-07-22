@@ -16,6 +16,7 @@ params:
   author: 'Edd Mann'
   email: 'the@eddmann.com'
   author_url: 'https://eddmann.com'
+  audio_base_url: 'https://podcasts.compiledconversations.com/'
   apple_podcasts_url: ''
   spotify_url: ''
   show_notes_label: 'Show notes'

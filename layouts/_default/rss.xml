@@ -52,7 +52,7 @@
       {{ with .Content }}<content:encoded>{{ "<![CDATA[" | safeHTML }}{{ . }}{{ "]]>" | safeHTML }}</content:encoded>{{ end }}
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <author>{{ $.Site.Params.author }}</author>
-      <enclosure url="{{ .Params.audio }}" length="{{ .Params.size }}" type="audio/mpeg" />
+      <enclosure url="{{ $.Site.Params.audio_base_url }}{{ .Params.file }}" length="{{ .Params.size }}" type="audio/mpeg" />
       <itunes:author>{{ $.Site.Params.author }}</itunes:author>
       <itunes:duration>{{ .Params.duration }}</itunes:duration>
       <itunes:image href="{{ "album-art.png" | absURL }}" />
