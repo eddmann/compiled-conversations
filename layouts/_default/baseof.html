@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width" />
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
-    {{ with .Site.Params.font_css }}<link rel="stylesheet" href="{{ . }}" />{{ end }}
     {{ with (templates.Defer (dict "key" "global")) }}{{ partial "css.html" . }}{{ end }}
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180x180.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
@@ -17,7 +16,7 @@
   <body class="bg-white font-body">
     <div class="pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
       <div class="relative max-w-2xl mx-auto">
-        {{ partial "header.html" . }} 
+        {{ partial "header.html" . }}
         {{ block "main" . }}{{ end }}
         {{ partial "footer.html" . }}
       </div>
