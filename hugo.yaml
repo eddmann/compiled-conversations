@@ -23,6 +23,7 @@ params:
   all_episodes_label: 'All episodes'
   audio_player_color: 'teal'
   date_format: 'Jan 2, 2006'
+  itunes_category: 'Technology'
   itunes_keywords: 'technology, software, web, development'
   podcast_guid: '1234567890'
 

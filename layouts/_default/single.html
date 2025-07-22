@@ -1,114 +1,114 @@
 {{ define "main" }}
 <div class="border-t-2 border-gray-100 pt-8 mt-7 mb-7">
-    <p class="text-sm leading-5 text-gray-500">
-      <time datetime="{{ .Date.Format "2006-1-2" }}">{{ .Date.Format .Site.Params.date_format }}</time>
-    </p>
-    <div>
-      <h2 class="mt-2 text-xl leading-7 font-semibold text-gray-900 font-heading">
-        {{ .Title }}
-      </h2>
-      {{ with .Params.audio }}
-      <div class="audio-player my-8 w-full bg-gray-100 rounded-lg p-4 shadow" data-src="{{ . }}">
-        <div class="flex items-center space-x-4">
-          <button
-            class="play-pause p-3 bg-{{ $.Site.Params.audio_player_color }}-600 text-white rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-{{ $.Site.Params.audio_player_color }}-500"
-            aria-label="Play or pause"
+  <p class="text-sm leading-5 text-gray-500">
+    <time datetime="{{ .Date.Format "2006-1-2" }}">{{ .Date.Format .Site.Params.date_format }}</time>
+  </p>
+  <div>
+    <h2 class="mt-2 text-xl leading-7 font-semibold text-gray-900 font-heading">
+      {{ .Title }}
+    </h2>
+    {{ with .Params.audio }}
+    <div class="audio-player my-8 w-full bg-gray-100 rounded-lg p-4 shadow" data-src="{{ . }}">
+      <div class="flex items-center space-x-4">
+        <button
+          class="play-pause p-3 bg-{{ $.Site.Params.audio_player_color }}-600 text-white rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-{{ $.Site.Params.audio_player_color }}-500"
+          aria-label="Play or pause"
+        >
+          <svg
+            class="icon-play h-6 w-6"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
           >
-            <svg
-              class="icon-play h-6 w-6"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M14.752 11.168l-5.197-3.028A1 1 0 008 8.94v6.12a1 1 0 001.555.832l5.197-3.028a1 1 0 000-1.664z"
-              />
-            </svg>
-            <svg
-              class="icon-pause h-6 w-6 hidden"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6" />
-            </svg>
-          </button>
-          <span class="current-time text-sm font-mono w-12">00:00</span>
-          <input
-            type="range"
-            class="seek flex-1 h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
-            min="0"
-            value="0"
-          />
-          <span class="duration text-sm font-mono w-12">00:00</span>
-        </div>
-      </div>
-      {{ end }}
-      <script>
-        function formatTime(seconds) {
-          const m = Math.floor(seconds / 60)
-            .toString()
-            .padStart(2, '0');
-          const s = Math.floor(seconds % 60)
-            .toString()
-            .padStart(2, '0');
-          return `${m}:${s}`;
-        }
-
-        function initAudioPlayers() {
-          document.querySelectorAll('.audio-player').forEach((player) => {
-            const src = player.dataset.src;
-            const audio = new Audio(src);
-
-            const playBtn = player.querySelector('.play-pause');
-            const iconPlay = playBtn.querySelector('.icon-play');
-            const iconPause = playBtn.querySelector('.icon-pause');
-            const currentTimeEl = player.querySelector('.current-time');
-            const durationEl = player.querySelector('.duration');
-            const seekBar = player.querySelector('.seek');
-
-            // Once metadata loads
-            audio.addEventListener('loadedmetadata', () => {
-              durationEl.textContent = formatTime(audio.duration);
-              seekBar.max = Math.floor(audio.duration);
-            });
-
-            // Update slider and time
-            audio.addEventListener('timeupdate', () => {
-              currentTimeEl.textContent = formatTime(audio.currentTime);
-              seekBar.value = Math.floor(audio.currentTime);
-            });
-
-            // Play/Pause toggle
-            playBtn.addEventListener('click', () => {
-              if (audio.paused) {
-                audio.play();
-                iconPlay.classList.add('hidden');
-                iconPause.classList.remove('hidden');
-              } else {
-                audio.pause();
-                iconPause.classList.add('hidden');
-                iconPlay.classList.remove('hidden');
-              }
-            });
-
-            // Seek
-            seekBar.addEventListener('input', () => {
-              audio.currentTime = seekBar.value;
-            });
-          });
-        }
-
-        document.addEventListener('DOMContentLoaded', initAudioPlayers);
-      </script>
-      <div class="mt-4 prose max-w-none">
-        {{ .Content }}
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M14.752 11.168l-5.197-3.028A1 1 0 008 8.94v6.12a1 1 0 001.555.832l5.197-3.028a1 1 0 000-1.664z"
+            />
+          </svg>
+          <svg
+            class="icon-pause h-6 w-6 hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6" />
+          </svg>
+        </button>
+        <span class="current-time text-sm font-mono w-12">00:00</span>
+        <input
+          type="range"
+          class="seek flex-1 h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer"
+          min="0"
+          value="0"
+        />
+        <span class="duration text-sm font-mono w-12">00:00</span>
       </div>
     </div>
+    {{ end }}
+    <script>
+      function formatTime(seconds) {
+        const m = Math.floor(seconds / 60)
+          .toString()
+          .padStart(2, '0');
+        const s = Math.floor(seconds % 60)
+          .toString()
+          .padStart(2, '0');
+        return `${m}:${s}`;
+      }
+
+      function initAudioPlayers() {
+        document.querySelectorAll('.audio-player').forEach((player) => {
+          const src = player.dataset.src;
+          const audio = new Audio(src);
+
+          const playBtn = player.querySelector('.play-pause');
+          const iconPlay = playBtn.querySelector('.icon-play');
+          const iconPause = playBtn.querySelector('.icon-pause');
+          const currentTimeEl = player.querySelector('.current-time');
+          const durationEl = player.querySelector('.duration');
+          const seekBar = player.querySelector('.seek');
+
+          // Once metadata loads
+          audio.addEventListener('loadedmetadata', () => {
+            durationEl.textContent = formatTime(audio.duration);
+            seekBar.max = Math.floor(audio.duration);
+          });
+
+          // Update slider and time
+          audio.addEventListener('timeupdate', () => {
+            currentTimeEl.textContent = formatTime(audio.currentTime);
+            seekBar.value = Math.floor(audio.currentTime);
+          });
+
+          // Play/Pause toggle
+          playBtn.addEventListener('click', () => {
+            if (audio.paused) {
+              audio.play();
+              iconPlay.classList.add('hidden');
+              iconPause.classList.remove('hidden');
+            } else {
+              audio.pause();
+              iconPause.classList.add('hidden');
+              iconPlay.classList.remove('hidden');
+            }
+          });
+
+          // Seek
+          seekBar.addEventListener('input', () => {
+            audio.currentTime = seekBar.value;
+          });
+        });
+      }
+
+      document.addEventListener('DOMContentLoaded', initAudioPlayers);
+    </script>
+    <div class="mt-4 prose max-w-none">
+      {{ .Content }}
+    </div>
+  </div>
 </div>
-{{ end }} 
+{{ end }}
