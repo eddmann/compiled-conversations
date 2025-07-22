@@ -54,6 +54,7 @@
       <enclosure url="{{ .Params.audio }}" length="{{ .Params.size }}" type="audio/mpeg" />
       <itunes:author>{{ $.Site.Params.author }}</itunes:author>
       <itunes:duration>{{ .Params.duration }}</itunes:duration>
+      <itunes:image href="{{ "album-art.png" | absURL }}" />
       <itunes:summary>{{ "<![CDATA[" | safeHTML }}{{ .Description }}{{ "]]>" | safeHTML }}</itunes:summary>
       <itunes:subtitle>{{ "<![CDATA[" | safeHTML }}{{ .Description }}{{ "]]>" | safeHTML }}</itunes:subtitle>
       <itunes:keywords>{{ $.Site.Params.itunes_keywords }}</itunes:keywords>
