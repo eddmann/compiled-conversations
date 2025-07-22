@@ -4,7 +4,7 @@
       <span class="sr-only">{{ .Site.Title }}</span>
       <img
         class="h-28 w-28 sm:h-36 sm:w-36 rounded-lg object-cover"
-        src="{{ .Site.Params.cover_image }}"
+        src="{{ "album-art.png" | absURL }}"
         alt="{{ .Site.Title }}"
       />
     </a>
@@ -20,8 +20,8 @@
       {{ end }}
       <div class="mt-2">
         <p class="text-xl leading-7 text-gray-500">
-          {{ .Site.Params.description }} Hosted by
-          <a href="{{ .Site.Params.host_url }}">{{ .Site.Params.host }}</a>.
+          {{ .Site.Params.subtitle }} Hosted by
+          <a href="{{ .Site.Params.author_url }}">{{ .Site.Params.author }}</a>.
         </p>
       </div>
       <nav class="mt-4" aria-label="Podcast platforms">

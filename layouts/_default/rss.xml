@@ -13,9 +13,9 @@
     <atom:link rel="self" type="application/atom+xml" href="{{ "rss.xml" | absURL }}" title="MP3 Audio" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
     <title>{{ .Site.Title }}</title>
-    <description>{{ .Site.Params.description }}</description>
+    <description>{{ .Site.Params.description | strings.TrimSpace }}</description>
     <copyright>© {{ now.Year }} {{ .Site.Params.author }}</copyright>
-    <podcast:guid>{{ .Site.Params.podcast_guid }}</podcast:guid>
+    <podcast:guid>{{ .Site.BaseURL }}</podcast:guid>
     <podcast:locked owner="{{ .Site.Params.email }}">no</podcast:locked>
     <language>{{ .Site.Language.Lang | default "en" }}</language>
     <pubDate>{{ $latest.Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
@@ -30,11 +30,12 @@
     <itunes:type>episodic</itunes:type>
     <itunes:author>{{ .Site.Params.author }}</itunes:author>
     <itunes:image href="{{ "album-art.png" | absURL }}" />
-    <itunes:summary>{{ .Site.Params.description }}</itunes:summary>
-    <itunes:subtitle>{{ .Site.Params.subtitle | default .Site.Params.description }}</itunes:subtitle>
+    <itunes:summary>{{ .Site.Params.description | strings.TrimSpace }}</itunes:summary>
+    <itunes:subtitle>{{ .Site.Params.subtitle | strings.TrimSpace }}</itunes:subtitle>
     <itunes:keywords>{{ .Site.Params.itunes_keywords }}</itunes:keywords>
     <itunes:owner>
       <itunes:name>{{ .Site.Params.author }}</itunes:name>
+      <itunes:email>{{ .Site.Params.email }}</itunes:email>
     </itunes:owner>
     <itunes:complete>No</itunes:complete>
     <itunes:explicit>false</itunes:explicit>
@@ -45,7 +46,7 @@
       <podcast:episode>{{ .File.BaseFileName }}</podcast:episode>
       <itunes:title>{{ .Title }}</itunes:title>
       <itunes:episodeType>full</itunes:episodeType>
-      <guid isPermaLink="false">{{ .File.UniqueID }}</guid>
+      <guid isPermaLink="false">{{ .Permalink }}</guid>
       <link>{{ .Permalink }}</link>
       <description>{{ "<![CDATA[" | safeHTML }}{{ .Description }}{{ "]]>" | safeHTML }}</description>
       {{ with .Content }}<content:encoded>{{ "<![CDATA[" | safeHTML }}{{ . }}{{ "]]>" | safeHTML }}</content:encoded>{{ end }}
@@ -56,7 +57,7 @@
       <itunes:duration>{{ .Params.duration }}</itunes:duration>
       <itunes:image href="{{ "album-art.png" | absURL }}" />
       <itunes:summary>{{ "<![CDATA[" | safeHTML }}{{ .Description }}{{ "]]>" | safeHTML }}</itunes:summary>
-      <itunes:subtitle>{{ "<![CDATA[" | safeHTML }}{{ .Description }}{{ "]]>" | safeHTML }}</itunes:subtitle>
+      <itunes:subtitle>{{ .Params.subtitle }}</itunes:subtitle>
       <itunes:keywords>{{ $.Site.Params.itunes_keywords }}</itunes:keywords>
       <itunes:explicit>false</itunes:explicit>
     </item>
