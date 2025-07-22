@@ -17,7 +17,7 @@ const colors = {
 
 const PODCASTS_DIR = './podcasts';
 const EPISODES_DIR = './content/episodes';
-const ALBUM_ART_PATH = './static/album-art.png';
+const ALBUM_ART_PATH = './static/album-art.jpg';
 
 function getHugoConfig() {
   const hugoConfig = fs.readFileSync('./hugo.yaml', 'utf8');

@@ -22,14 +22,14 @@
     <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
     <link>{{ .Site.BaseURL }}</link>
     <image>
-      <url>{{ "album-art.png" | absURL }}</url>
+      <url>{{ "album-art.jpg" | absURL }}</url>
       <title>{{ .Site.Title }}</title>
       <link>{{ .Site.BaseURL }}</link>
     </image>
     <itunes:category text="{{ .Site.Params.itunes_category }}" />
     <itunes:type>episodic</itunes:type>
     <itunes:author>{{ .Site.Params.author }}</itunes:author>
-    <itunes:image href="{{ "album-art.png" | absURL }}" />
+    <itunes:image href="{{ "album-art.jpg" | absURL }}" />
     <itunes:summary>{{ .Site.Params.description | strings.TrimSpace }}</itunes:summary>
     <itunes:subtitle>{{ .Site.Params.subtitle | strings.TrimSpace }}</itunes:subtitle>
     <itunes:keywords>{{ .Site.Params.itunes_keywords }}</itunes:keywords>
@@ -55,7 +55,7 @@
       <enclosure url="{{ $.Site.Params.audio_base_url }}{{ .Params.file }}" length="{{ .Params.size }}" type="audio/mpeg" />
       <itunes:author>{{ $.Site.Params.author }}</itunes:author>
       <itunes:duration>{{ .Params.duration }}</itunes:duration>
-      <itunes:image href="{{ "album-art.png" | absURL }}" />
+      <itunes:image href="{{ "album-art.jpg" | absURL }}" />
       <itunes:summary>{{ "<![CDATA[" | safeHTML }}{{ .Description }}{{ "]]>" | safeHTML }}</itunes:summary>
       <itunes:subtitle>{{ .Params.subtitle }}</itunes:subtitle>
       <itunes:keywords>{{ $.Site.Params.itunes_keywords }}</itunes:keywords>
