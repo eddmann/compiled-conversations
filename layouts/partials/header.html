@@ -26,6 +26,7 @@
       </div>
       <nav class="mt-4" aria-label="Podcast platforms">
         <ul class="flex justify-center space-x-2 text-gray-400 sm:justify-start list-none">
+          {{ if .Site.Params.apple_podcasts_url }}
           <li>
             <a class="text-gray-600 hover:text-gray-900" href="{{ .Site.Params.apple_podcasts_url }}" aria-label="Listen on Apple Podcasts">
               Apple Podcasts
@@ -34,6 +35,8 @@
           <li>
             <span aria-hidden="true">•</span>
           </li>
+          {{ end }}
+          {{ if .Site.Params.spotify_url }}
           <li>
             <a class="text-gray-600 hover:text-gray-900" href="{{ .Site.Params.spotify_url }}" aria-label="Listen on Spotify">
               Spotify
@@ -42,6 +45,7 @@
           <li>
             <span aria-hidden="true">•</span>
           </li>
+          {{ end }}
           <li>
             <a class="text-gray-600 hover:text-gray-900" href="{{ "rss.xml" | relURL }}" aria-label="Subscribe to RSS feed">
               RSS
