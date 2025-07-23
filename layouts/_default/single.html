@@ -9,10 +9,10 @@
         {{ .Title }}
       </h1>
     </header>
-    
+
     {{ with .Params.file }}
     <section aria-label="Audio player">
-      <div class="audio-player my-8 w-full bg-gray-100 rounded-lg p-4 shadow" data-src="{{ $.Site.Params.audio_base_url }}{{ . }}">
+      <div class="audio-player my-8 w-full bg-gray-100 rounded-lg p-4 shadow" data-src="{{ $.Site.Params.audio_base_url }}{{ . }}" data-duration="{{ $.Params.duration }}">
         <div class="flex items-center space-x-4">
           <button
             class="play-pause p-3 bg-{{ $.Site.Params.audio_player_color }}-600 text-white rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-{{ $.Site.Params.audio_player_color }}-500"
@@ -53,12 +53,12 @@
             value="0"
             aria-label="Seek through episode"
           />
-          <span class="duration text-sm font-mono w-12" aria-label="Total duration">00:00</span>
+          <span class="duration text-sm font-mono w-12" aria-label="Total duration">{{ if $.Params.duration }}{{ printf "%02d:%02d" (div $.Params.duration 60) (mod $.Params.duration 60) }}{{ else }}00:00{{ end }}</span>
         </div>
       </div>
     </section>
     {{ end }}
-    
+
     <script>
       function formatTime(seconds) {
         const m = Math.floor(seconds / 60)
@@ -73,7 +73,7 @@
       function initAudioPlayers() {
         document.querySelectorAll('.audio-player').forEach((player) => {
           const src = player.dataset.src;
-          const audio = new Audio(src);
+          let audio = null;
 
           const playBtn = player.querySelector('.play-pause');
           const iconPlay = playBtn.querySelector('.icon-play');
@@ -82,20 +82,35 @@
           const durationEl = player.querySelector('.duration');
           const seekBar = player.querySelector('.seek');
 
-          // Once metadata loads
-          audio.addEventListener('loadedmetadata', () => {
-            durationEl.textContent = formatTime(audio.duration);
-            seekBar.max = Math.floor(audio.duration);
-          });
+          function initializeAudio() {
+            if (audio !== null) return;
 
-          // Update slider and time
-          audio.addEventListener('timeupdate', () => {
-            currentTimeEl.textContent = formatTime(audio.currentTime);
-            seekBar.value = Math.floor(audio.currentTime);
-          });
+            audio = new Audio(src);
 
-          // Play/Pause toggle
+            audio.addEventListener('loadedmetadata', () => {
+              const actualDuration = Math.floor(audio.duration);
+              durationEl.textContent = formatTime(actualDuration);
+              seekBar.max = actualDuration;
+            });
+
+            audio.addEventListener('timeupdate', () => {
+              currentTimeEl.textContent = formatTime(audio.currentTime);
+              seekBar.value = Math.floor(audio.currentTime);
+            });
+
+            audio.addEventListener('ended', () => {
+              iconPause.classList.add('hidden');
+              iconPlay.classList.remove('hidden');
+              currentTimeEl.textContent = '00:00';
+              seekBar.value = 0;
+            });
+          }
+
           playBtn.addEventListener('click', () => {
+            if (audio === null) {
+              initializeAudio();
+            }
+
             if (audio.paused) {
               audio.play();
               iconPlay.classList.add('hidden');
@@ -107,16 +122,17 @@
             }
           });
 
-          // Seek
           seekBar.addEventListener('input', () => {
-            audio.currentTime = seekBar.value;
+            if (audio !== null) {
+              audio.currentTime = seekBar.value;
+            }
           });
         });
       }
 
       document.addEventListener('DOMContentLoaded', initAudioPlayers);
     </script>
-    
+
     <section>
       <div class="mt-4 prose max-w-none">
         {{ .Content }}
