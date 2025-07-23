@@ -14,7 +14,7 @@
     <atom:link rel="self" type="application/atom+xml" href="{{ "rss.xml" | absURL }}" title="MP3 Audio" />
     <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
     <title>{{ .Site.Title }}</title>
-    <description>{{ .Site.Params.description | strings.TrimSpace }}</description>
+    <description>{{ .Site.Params.description | replaceRE "\\s+" " " | strings.TrimSpace }}</description>
     <copyright>© {{ now.Year }} {{ .Site.Params.author }}</copyright>
     <podcast:guid>{{ .Site.BaseURL }}</podcast:guid>
     <podcast:locked owner="{{ .Site.Params.email }}">no</podcast:locked>
@@ -31,8 +31,8 @@
     <itunes:type>episodic</itunes:type>
     <itunes:author>{{ .Site.Params.author }}</itunes:author>
     <itunes:image href="{{ "album-art.jpg" | absURL }}" />
-    <itunes:summary>{{ .Site.Params.description | strings.TrimSpace }}</itunes:summary>
-    <itunes:subtitle>{{ .Site.Params.subtitle | strings.TrimSpace }}</itunes:subtitle>
+    <itunes:summary>{{ .Site.Params.description | replaceRE "\\s+" " " | strings.TrimSpace }}</itunes:summary>
+    <itunes:subtitle>{{ .Site.Params.subtitle | replaceRE "\\s+" " " | strings.TrimSpace }}</itunes:subtitle>
     <itunes:keywords>{{ .Site.Params.itunes_keywords }}</itunes:keywords>
     <itunes:owner>
       <itunes:name>{{ .Site.Params.author }}</itunes:name>
