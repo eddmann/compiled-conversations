@@ -105,6 +105,9 @@ async function updateAudioMetadata(audioPath, episodeData, episodeFile) {
         language: 'eng',
         text: episodeData.description,
       },
+      copyright: `(c) ${new Date(episodeData.date).getFullYear()} ${
+        hugoConfig.params.author
+      }`,
       APIC: ALBUM_ART_PATH,
     };
 
