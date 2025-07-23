@@ -21,14 +21,14 @@
       <div class="mt-2">
         <p class="text-xl leading-7 text-gray-500">
           {{ .Site.Params.subtitle }} Hosted by
-          <a href="{{ .Site.Params.author_url }}">{{ .Site.Params.author }}</a>.
+          <a href="{{ .Site.Params.author_url }}" target="_blank">{{ .Site.Params.author }}</a>.
         </p>
       </div>
       <nav class="mt-4" aria-label="Podcast platforms">
         <ul class="flex justify-center space-x-2 text-gray-400 sm:justify-start list-none">
           {{ if .Site.Params.apple_podcasts_url }}
           <li>
-            <a class="text-gray-600 hover:text-gray-900" href="{{ .Site.Params.apple_podcasts_url }}" aria-label="Listen on Apple Podcasts">
+            <a class="text-gray-600 hover:text-gray-900" href="{{ .Site.Params.apple_podcasts_url }}" target="_blank" aria-label="Listen on Apple Podcasts">
               Apple Podcasts
             </a>
           </li>
@@ -38,7 +38,7 @@
           {{ end }}
           {{ if .Site.Params.spotify_url }}
           <li>
-            <a class="text-gray-600 hover:text-gray-900" href="{{ .Site.Params.spotify_url }}" aria-label="Listen on Spotify">
+            <a class="text-gray-600 hover:text-gray-900" href="{{ .Site.Params.spotify_url }}" target="_blank" aria-label="Listen on Spotify">
               Spotify
             </a>
           </li>
