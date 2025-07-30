@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Wed, 23 Jul 2025 08:00:00 +0000</pubDate><lastBuildDate>Wed, 23 Jul 2025 10:38:47 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Thinking in Events: Principles of Event-Driven Architecture, Part 1 with James Eastham</title><itunes:episode>1</itunes:episode><podcast:episode>1</podcast:episode><itunes:title>Thinking in Events: Principles of Event-Driven Architecture, Part 1 with James Eastham</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/1/</guid><link>https://compiledconversations.com/1/</link><description>Developer advocate James Eastham joins us for Part 1 of a deep dive into the core principles of event-driven architecture (EDA), including types of coupling, asynchronous communication, event design, and real-world trade-offs in building distributed systems.</description><content:encoded><![CDATA[<p>We&rsquo;re joined by James Eastham, developer advocate at Datadog, to break down the fundamentals of event-driven architecture (EDA) - not just as a technical pattern, but as a communication-first mindset for building distributed systems.</p>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Wed, 30 Jul 2025 07:00:00 +0000</pubDate><lastBuildDate>Wed, 30 Jul 2025 07:23:40 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Thinking in Events: Principles of Event-Driven Architecture, Part 2 with James Eastham</title><itunes:episode>2</itunes:episode><podcast:episode>2</podcast:episode><itunes:title>Thinking in Events: Principles of Event-Driven Architecture, Part 2 with James Eastham</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/2/</guid><link>https://compiledconversations.com/2/</link><description>In Part 2, James Eastham returns to tackle the practical side of event-driven architecture - covering failure recovery, orchestration vs. choreography, testing strategies, handling sensitive data, and how to migrate from a monolith using real-world patterns.</description><content:encoded><![CDATA[<p>In Part 2 of our deep dive into event-driven architecture (EDA), James Eastham returns to explore the practical realities of building and maintaining event-driven systems.
+We go beyond principles and into implementation - from failure handling and orchestration vs. choreography, to observability, testing, security, and real-world migration strategies.</p>
+<p>Topics include:</p>
+<ul>
+<li>Choreography vs. orchestration: coordination strategies and trade-offs</li>
+<li>Failure recovery and the saga pattern</li>
+<li>Handling sensitive data in events (PII, encryption, audit)</li>
+<li>Observability and distributed tracing with OpenTelemetry</li>
+<li>Event versioning, schema evolution, and contract testing</li>
+<li>Simple async frontend integration: polling vs. WebSockets</li>
+<li>Migrating from a monolith using internal events and change data capture (CDC)</li>
+<li>Testing flow vs. structure in EDA systems</li>
+<li>The realities of documentation and schema visibility</li>
+<li>How to get started with EDA - and why you don’t need microservices to do it</li>
+</ul>
+<p>We wrap up with a candid look at how James learns best - by doing and by teaching - and why that matters in the fast-evolving world of distributed systems.</p>
+<p><em>This is Part 2 of a 2-part series. In Part 1, we discussed the foundational principles of event-driven architecture - including types of coupling, asynchronous communication, event design, and the role of events in decoupling and scaling distributed systems.</em></p>
+<p><strong>Show Links</strong></p>
+<ul>
+<li>
+
+<a href="https://jameseastham.co.uk/" target="_blank">James Eastham&rsquo;s Website</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/@serverlessjames" target="_blank">James Eastham on YouTube</a>
+</li>
+<li>
+
+<a href="https://bsky.app/profile/jameseastham.co.uk" target="_blank">James Eastham on Bluesky</a>
+</li>
+<li>
+
+<a href="https://cloudevents.io" target="_blank">CloudEvents Spec</a>
+</li>
+<li>
+
+<a href="https://opentelemetry.io" target="_blank">OpenTelemetry</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/watch?v=Jfwriqqkwi4" target="_blank">Laila Bougria - Orchestration vs. Choreography</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/watch?v=DgW1kAazN80" target="_blank">Martin Thwaites &amp; Ian Cooper - Modern Observability and Event Driven Architectures</a>
+</li>
+<li>
+
+<a href="https://github.com/jeastham1993/PlantBasedPizza" target="_blank">James&rsquo; Pizza Restaurant Example App</a>
+</li>
+<li>
+
+<a href="https://github.com/jeastham1993/event-test-harness" target="_blank">James&rsquo; Event Test Harness</a>
+</li>
+</ul>
+]]></content:encoded><pubDate>Wed, 30 Jul 2025 07:00:00 +0000</pubDate><author>Edd Mann</author><enclosure url="https://podcasts.compiledconversations.com/002-thinking-in-events-principles-of-event-driven-architecture-part-2-with-james-eastham.mp3" length="44311584" type="audio/mpeg"/><itunes:author>Edd Mann</itunes:author><itunes:duration>2760</itunes:duration><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In Part 2, James Eastham returns to tackle the practical side of event-driven architecture - covering failure recovery, orchestration vs. choreography, testing strategies, handling sensitive data, and how to migrate from a monolith using real-world patterns.</itunes:summary><itunes:subtitle>Handling failure, choreography vs. orchestration, testing, observability, and practical migration strategies in event-driven systems.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:explicit>false</itunes:explicit></item><item><title>Thinking in Events: Principles of Event-Driven Architecture, Part 1 with James Eastham</title><itunes:episode>1</itunes:episode><podcast:episode>1</podcast:episode><itunes:title>Thinking in Events: Principles of Event-Driven Architecture, Part 1 with James Eastham</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/1/</guid><link>https://compiledconversations.com/1/</link><description>Developer advocate James Eastham joins us for Part 1 of a deep dive into the core principles of event-driven architecture (EDA), including types of coupling, asynchronous communication, event design, and real-world trade-offs in building distributed systems.</description><content:encoded><![CDATA[<p>We&rsquo;re joined by James Eastham, developer advocate at Datadog, to break down the fundamentals of event-driven architecture (EDA) - not just as a technical pattern, but as a communication-first mindset for building distributed systems.</p>
 <p>We explore how communication lies at the heart of software design, why coupling and cohesion still matter in modern architectures, and what makes an event more than just a message. The discussion covers everything from monolith vs. microservices trade-offs to the practical realities of building asynchronous systems at scale.</p>
 <p>Topics include:</p>
 <ul>
