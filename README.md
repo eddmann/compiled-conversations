@@ -49,6 +49,28 @@ To run the script:
 npm run update-podcast-metadata
 ```
 
+### Sync Episodes to S3
+
+The `sync-episodes` script uploads podcast audio files to a specified S3 bucket. It:
+
+- Reads MP3 files from the `podcasts/` directory
+- Compares local file hashes with S3 ETags to detect changes
+- Uploads only new or modified files to the specified S3 bucket
+- Provides dry-run mode to preview uploads without making changes
+- Sets correct `audio/mpeg` content type for podcast files
+- Includes verbose logging for detailed upload information
+
+**Note:** The `podcasts/` directory containing audio files is not committed to this repository.
+
+**Prerequisites:** AWS credentials must be configured via environment variables, AWS CLI, or IAM role.
+
+To run the script:
+
+```bash
+npm run sync-episodes -- --bucket my-podcast-bucket --dry-run
+npm run sync-episodes -- --bucket my-podcast-bucket
+```
+
 ## Acknowledgments
 
 The design of this podcast website was inspired by Adam Wathan's [Full Stack Radio](https://fullstackradio.com/) podcast.
