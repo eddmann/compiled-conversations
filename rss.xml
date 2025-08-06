@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Wed, 30 Jul 2025 07:00:00 +0000</pubDate><lastBuildDate>Wed, 30 Jul 2025 07:23:40 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Thinking in Events: Principles of Event-Driven Architecture, Part 2 with James Eastham</title><itunes:episode>2</itunes:episode><podcast:episode>2</podcast:episode><itunes:title>Thinking in Events: Principles of Event-Driven Architecture, Part 2 with James Eastham</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/2/</guid><link>https://compiledconversations.com/2/</link><description>In Part 2, James Eastham returns to tackle the practical side of event-driven architecture - covering failure recovery, orchestration vs. choreography, testing strategies, handling sensitive data, and how to migrate from a monolith using real-world patterns.</description><content:encoded><![CDATA[<p>In Part 2 of our deep dive into event-driven architecture (EDA), James Eastham returns to explore the practical realities of building and maintaining event-driven systems.
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Wed, 06 Aug 2025 14:00:00 +0000</pubDate><lastBuildDate>Wed, 06 Aug 2025 14:38:07 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Serverless PHP with Matthieu Napoli</title><itunes:episode>3</itunes:episode><podcast:episode>3</podcast:episode><itunes:title>Serverless PHP with Matthieu Napoli</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/3/</guid><link>https://compiledconversations.com/3/</link><description>Matthieu Napoli, creator of Bref, shares how PHP found its place in serverless through AWS Lambda - and what it takes to run modern applications without managing infrastructure. We cover Bref&amp;#39;s architecture, Laravel/Symfony support, Bref Cloud, and trade-offs with containers and Kubernetes.</description><content:encoded><![CDATA[<p>Matthieu Napoli, creator of Bref, joins us to explore the journey of bringing PHP to AWS Lambda - and making serverless a reality for everyday PHP developers.
+From hacking runtimes to building a mature ecosystem, Matthieu unpacks what &ldquo;serverless&rdquo; really means in practice - beyond the hype.</p>
+<p>We dig into Bref&rsquo;s architecture, its integration with Laravel and Symfony, why PHP fits so naturally into Lambda&rsquo;s execution model, and what it takes to run scalable, queue-driven applications without managing infrastructure.
+Matthieu also shares the story behind Bref Cloud - a new deployment and monitoring platform built to simplify the AWS experience for teams of all sizes, while staying open, secure, and extensible.</p>
+<p>Along the way, we dive into the trade-offs between serverless and Kubernetes, the importance of developer experience in platform design, and how Bref stays flexible - whether you&rsquo;re shipping a side project or scaling production workloads.</p>
+<p>This conversation is packed with practical insight into the past, present, and future of serverless PHP - from cold starts and containers to deployment patterns, open source sustainability, and what it takes to keep PHP evolving in the cloud era.</p>
+<p><strong>Show Links</strong></p>
+<ul>
+<li>
+
+<a href="https://bref.sh/" target="_blank">Bref (Official Site)</a>
+</li>
+<li>
+
+<a href="https://bref.sh/cloud" target="_blank">Bref Cloud</a>
+</li>
+<li>
+
+<a href="https://mnapoli.fr/" target="_blank">Matthieu Napoli&rsquo;s Website</a>
+</li>
+<li>
+
+<a href="https://x.com/matthieunapoli" target="_blank">Matthieu Napoli on X/Twitter</a>
+</li>
+<li>
+
+<a href="https://bsky.app/profile/mnapoli.bsky.social" target="_blank">Matthieu Napoli on BlueSky</a>
+</li>
+<li>
+
+<a href="https://github.com/brefphp/bref" target="_blank">Bref GitHub Repo</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/watch?v=r8fgR0lTV-k" target="_blank">Serverless PHP: how does it really work?</a>
+</li>
+<li>
+
+<a href="https://bref.sh/docs/cloud-security" target="_blank">Bref Cloud Security &amp; IAM Docs</a>
+</li>
+<li>
+
+<a href="https://vapor.laravel.com/" target="_blank">Laravel Vapor (for comparison)</a>
+</li>
+<li>
+
+<a href="https://aws.amazon.com/lambda/" target="_blank">AWS Lambda</a>
+</li>
+<li>
+
+<a href="https://symfony.com/" target="_blank">Symfony</a>
+</li>
+<li>
+
+<a href="https://laravel.com/" target="_blank">Laravel</a>
+</li>
+<li>
+
+<a href="https://www.serverless.com/" target="_blank">Serverless Framework</a>
+</li>
+<li>
+
+<a href="https://github.com/getlift/lift" target="_blank">Lift Plugin for Serverless Framework</a>
+</li>
+</ul>
+]]></content:encoded><pubDate>Wed, 06 Aug 2025 14:00:00 +0000</pubDate><author>Edd Mann</author><enclosure url="https://podcasts.compiledconversations.com/003-serverless-php-with-matthieu-napoli.mp3" length="63957719" type="audio/mpeg"/><itunes:author>Edd Mann</itunes:author><itunes:duration>3987</itunes:duration><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>Matthieu Napoli, creator of Bref, shares how PHP found its place in serverless through AWS Lambda - and what it takes to run modern applications without managing infrastructure. We cover Bref&amp;#39;s architecture, Laravel/Symfony support, Bref Cloud, and trade-offs with containers and Kubernetes.</itunes:summary><itunes:subtitle>Running PHP on AWS Lambda with Bref, simplifying deployments with Bref Cloud, and rethinking infrastructure for modern applications.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:explicit>false</itunes:explicit></item><item><title>Thinking in Events: Principles of Event-Driven Architecture, Part 2 with James Eastham</title><itunes:episode>2</itunes:episode><podcast:episode>2</podcast:episode><itunes:title>Thinking in Events: Principles of Event-Driven Architecture, Part 2 with James Eastham</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/2/</guid><link>https://compiledconversations.com/2/</link><description>In Part 2, James Eastham returns to tackle the practical side of event-driven architecture - covering failure recovery, orchestration vs. choreography, testing strategies, handling sensitive data, and how to migrate from a monolith using real-world patterns.</description><content:encoded><![CDATA[<p>In Part 2 of our deep dive into event-driven architecture (EDA), James Eastham returns to explore the practical realities of building and maintaining event-driven systems.
 We go beyond principles and into implementation - from failure handling and orchestration vs. choreography, to observability, testing, security, and real-world migration strategies.</p>
 <p>Topics include:</p>
 <ul>
