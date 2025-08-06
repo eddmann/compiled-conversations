@@ -15,7 +15,7 @@ const colors = {
   reset: '\x1b[0m',
 };
 
-const PODCASTS_DIR = './podcasts';
+const EPISODES_AUDIO_DIR = './podcasts';
 const EPISODES_DIR = './content/episodes';
 const ALBUM_ART_PATH = './static/album-art.jpg';
 
@@ -139,7 +139,7 @@ function findAudioFile(episodeFile) {
       return null;
     }
 
-    const audioPath = path.join(PODCASTS_DIR, audioFileName);
+    const audioPath = path.join(EPISODES_AUDIO_DIR, audioFileName);
 
     if (fs.existsSync(audioPath)) {
       return audioPath;
@@ -203,7 +203,7 @@ async function processEpisode(episodeFile) {
 
 async function main() {
   console.log(
-    `${colors.blue}🚀${colors.reset} Starting podcast metadata update...`
+    `${colors.blue}🚀${colors.reset} Starting episodes metadata update...`
   );
 
   if (!fs.existsSync(EPISODES_DIR)) {
@@ -232,7 +232,7 @@ async function main() {
   }
 
   console.log(
-    `${colors.green}🎉${colors.reset} Podcast metadata update completed!`
+    `${colors.green}🎉${colors.reset} Episodes metadata update completed!`
   );
 }
 

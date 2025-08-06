@@ -30,9 +30,9 @@ The development server will automatically reload when you make changes to your c
 npm install
 ```
 
-### Update Podcast Metadata
+### Update Episodes Metadata
 
-The `update-podcast-metadata` script automatically processes podcast episodes and updates their metadata. It:
+The `update-episodes-metadata` script automatically processes podcast episodes and updates their metadata. It:
 
 - Reads episode markdown files from `content/episodes/`
 - Finds corresponding audio files in the `podcasts/` directory
@@ -46,7 +46,7 @@ The `update-podcast-metadata` script automatically processes podcast episodes an
 To run the script:
 
 ```bash
-npm run update-podcast-metadata
+npm run update-episodes-metadata
 ```
 
 ### Sync Episodes to S3
