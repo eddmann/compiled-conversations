@@ -32,7 +32,7 @@ npm install
 
 ### Update Episodes Metadata
 
-The `update-episodes-metadata` script automatically processes podcast episodes and updates their metadata. It:
+The `update-episodes-metadata` script automatically processes local episode audio files and updates their metadata. It:
 
 - Reads episode markdown files from `content/episodes/`
 - Finds corresponding audio files in the local `episodes/` directory
@@ -51,7 +51,7 @@ npm run update-episodes-metadata
 
 ### Sync Episodes to S3
 
-The `sync-episodes` script uploads podcast audio files to a specified S3 bucket. It:
+The `sync-episodes` script uploads local episode audio files to a specified S3 bucket. It:
 
 - Reads MP3 files from the local `episodes/` directory
 - Compares local file hashes with S3 ETags to detect changes
