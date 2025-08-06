@@ -35,13 +35,13 @@ npm install
 The `update-episodes-metadata` script automatically processes podcast episodes and updates their metadata. It:
 
 - Reads episode markdown files from `content/episodes/`
-- Finds corresponding audio files in the `podcasts/` directory
+- Finds corresponding audio files in the local `episodes/` directory
 - Extracts audio duration, file size, and generates MD5 hash
 - Updates episode frontmatter with this metadata
 - Embeds podcast metadata (title, artist, album, etc.) into audio files using ID3 tags
 - Uses album art from `static/album-art.jpg`
 
-**Note:** The `podcasts/` directory containing audio files is not committed to this repository.
+**Note:** The local `episodes/` directory containing audio files is not committed to this repository.
 
 To run the script:
 
@@ -53,14 +53,14 @@ npm run update-episodes-metadata
 
 The `sync-episodes` script uploads podcast audio files to a specified S3 bucket. It:
 
-- Reads MP3 files from the `podcasts/` directory
+- Reads MP3 files from the local `episodes/` directory
 - Compares local file hashes with S3 ETags to detect changes
 - Uploads only new or modified files to the specified S3 bucket
 - Provides dry-run mode to preview uploads without making changes
 - Sets correct `audio/mpeg` content type for podcast files
 - Includes verbose logging for detailed upload information
 
-**Note:** The `podcasts/` directory containing audio files is not committed to this repository.
+**Note:** The local `episodes/` directory containing audio files is not committed to this repository.
 
 **Prerequisites:** AWS credentials must be configured via environment variables, AWS CLI, or IAM role.
 

@@ -15,7 +15,7 @@ const colors = {
   reset: '\x1b[0m',
 };
 
-const EPISODES_AUDIO_DIR = './podcasts';
+const EPISODES_AUDIO_DIR = './episodes';
 const EPISODES_DIR = './content/episodes';
 const ALBUM_ART_PATH = './static/album-art.jpg';
 

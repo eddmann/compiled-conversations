@@ -10,7 +10,7 @@ const { stat, readdir } = require('fs/promises');
 const path = require('path');
 const crypto = require('crypto');
 
-const EPISODE_DIR = path.join(__dirname, '..', 'podcasts');
+const EPISODE_DIR = path.join(__dirname, '..', 'episodes');
 
 const args = process.argv.slice(2);
 
