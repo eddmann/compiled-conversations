@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Wed, 06 Aug 2025 14:00:00 +0000</pubDate><lastBuildDate>Tue, 19 Aug 2025 16:28:48 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Serverless PHP with Matthieu Napoli</title><itunes:episode>3</itunes:episode><podcast:episode>3</podcast:episode><itunes:title>Serverless PHP with Matthieu Napoli</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/3/</guid><link>https://compiledconversations.com/3/</link><description>Matthieu Napoli, creator of Bref, shares how PHP found its place in serverless through AWS Lambda - and what it takes to run modern applications without managing infrastructure. We cover Bref&amp;#39;s architecture, Laravel/Symfony support, Bref Cloud, and trade-offs with containers and Kubernetes.</description><content:encoded><![CDATA[<p>Matthieu Napoli, creator of Bref, joins us to explore the journey of bringing PHP to AWS Lambda - and making serverless a reality for everyday PHP developers.
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Wed, 20 Aug 2025 07:00:00 +0000</pubDate><lastBuildDate>Wed, 20 Aug 2025 07:17:35 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Learning Domain-Driven Design, Part 1 with Vlad Khononov</title><itunes:episode>4</itunes:episode><podcast:episode>4</podcast:episode><itunes:title>Learning Domain-Driven Design, Part 1 with Vlad Khononov</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/4/</guid><link>https://compiledconversations.com/4/</link><description>Author and trainer Vlad Khononov joins us for Part 1 of a deep dive into Domain-Driven Design (DDD). We cover what DDD is really for, why strategic DDD matters more than patterns, how to identify subdomains, the relationship between subdomains and bounded contexts, and how to make pragmatic architecture choices that align with your business.</description><content:encoded><![CDATA[<p>Vlad Khononov, author of Learning Domain-Driven Design, joins us to demystify DDD - focusing on the business first, and the code second.</p>
+<p>We unpack what DDD is really trying to help you achieve, why strategic DDD matters most, and how concepts like subdomains, ubiquitous language, and bounded contexts can guide both architecture and team design.
+Along the way, Vlad shares pragmatic advice for avoiding common misconceptions and making choices that keep you flexible as both your product and understanding evolve.</p>
+<p>Topics include:</p>
+<ul>
+<li>What DDD is - and the real problem it solves for teams</li>
+<li>Strategic vs. tactical DDD (why strategy comes first)</li>
+<li>The developer&rsquo;s role in uncovering business intent and future change</li>
+<li>Subdomains: core vs. supporting vs. generic - and why granularity is hard</li>
+<li>Ubiquitous language: speaking the business&rsquo;s language (and making it stick)</li>
+<li>Bounded contexts: protecting model integrity and when to widen the scope</li>
+<li>One-to-one myths: why subdomains ≠ bounded contexts</li>
+<li>Monoliths, modular monoliths, and microservices - choosing for flexibility</li>
+<li>Ownership boundaries and deploying multiple artifacts atomically</li>
+<li>Integrations and the anti-corruption layer (keeping external models out)</li>
+<li>Using the Cynefin framework to reason about core/complicated/supporting work</li>
+</ul>
+<p>Vlad also shares hard-won lessons on communicating with domain experts, dealing with uncertainty in core subdomains, and why wider bounded contexts can make early-stage change safer and cheaper.</p>
+<p>This episode is packed with practical guidance for anyone trying to align architecture with real business needs - not just patterns.</p>
+<p><em>This is Part 1 of 2. In Part 2 we cover: context mapping, modeling workshops, fit-for-purpose architecture and testing, team boundaries, pragmatic adoption, and AI&rsquo;s impact on modeling.</em></p>
+<p><strong>Show Links</strong></p>
+<ul>
+<li>
+
+<a href="https://vladikk.com/" target="_blank">Vlad Khononov&rsquo;s Website</a>
+</li>
+<li>
+
+<a href="https://x.com/vladikk" target="_blank">Vlad Khononov on X/Twitter</a>
+</li>
+<li>
+
+<a href="https://bsky.app/profile/vladikk.bsky.social" target="_blank">Vlad Khononov on BlueSky</a>
+</li>
+<li>
+
+<a href="https://www.linkedin.com/in/vladikk/" target="_blank">Vlad Khononov on LinkedIn</a>
+</li>
+<li>
+
+<a href="https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/" target="_blank">Vlad Khononov - Learning Domain-Driven Design</a>
+</li>
+<li>
+
+<a href="https://coupling.dev/" target="_blank">Vlad Khononov - Balancing Coupling in Software Design</a>
+</li>
+<li>
+
+<a href="https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/" target="_blank">Eric Evans - Domain-Driven Design (Blue Book)</a>
+</li>
+<li>
+
+<a href="https://www.oreilly.com/library/view/implementing-domain-driven-design/9780133039900/" target="_blank">Vaughn Vernon - Implementing Domain-Driven Design (Red Book)</a>
+</li>
+<li>
+
+<a href="https://pragprog.com/titles/swdddf/domain-modeling-made-functional/" target="_blank">Scott Wlaschin - Domain Modeling Made Functional (White Book)</a>
+</li>
+<li>
+
+<a href="https://www.eventstorming.com/" target="_blank">EventStorming</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/Cynefin_framework" target="_blank">Cynefin framework</a>
+</li>
+<li>
+
+<a href="https://vladikk.com/2025/05/26/with-ai-everything-is-complicated/" target="_blank">With AI, everything is so complicated&hellip; and this is great news!</a>
+</li>
+<li>
+
+<a href="https://vladikk.com/2025/04/05/f1-ddd/" target="_blank">F1 + DDD: All Models are Wrong, Some are Dangerous</a>
+</li>
+</ul>
+]]></content:encoded><pubDate>Wed, 20 Aug 2025 07:00:00 +0000</pubDate><author>Edd Mann</author><enclosure url="https://podcasts.compiledconversations.com/004-learning-domain-driven-design-part-1-with-vlad-khononov.mp3" length="59659573" type="audio/mpeg"/><itunes:author>Edd Mann</itunes:author><itunes:duration>3719</itunes:duration><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>Author and trainer Vlad Khononov joins us for Part 1 of a deep dive into Domain-Driven Design (DDD). We cover what DDD is really for, why strategic DDD matters more than patterns, how to identify subdomains, the relationship between subdomains and bounded contexts, and how to make pragmatic architecture choices that align with your business.</itunes:summary><itunes:subtitle>Understanding domains, subdomains, ubiquitous language, and bounded contexts - plus how to apply strategic vs. tactical DDD in the real world.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:explicit>false</itunes:explicit></item><item><title>Serverless PHP with Matthieu Napoli</title><itunes:episode>3</itunes:episode><podcast:episode>3</podcast:episode><itunes:title>Serverless PHP with Matthieu Napoli</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/3/</guid><link>https://compiledconversations.com/3/</link><description>Matthieu Napoli, creator of Bref, shares how PHP found its place in serverless through AWS Lambda - and what it takes to run modern applications without managing infrastructure. We cover Bref&amp;#39;s architecture, Laravel/Symfony support, Bref Cloud, and trade-offs with containers and Kubernetes.</description><content:encoded><![CDATA[<p>Matthieu Napoli, creator of Bref, joins us to explore the journey of bringing PHP to AWS Lambda - and making serverless a reality for everyday PHP developers.
 From hacking runtimes to building a mature ecosystem, Matthieu unpacks what &ldquo;serverless&rdquo; really means in practice - beyond the hype.</p>
 <p>We dig into Bref&rsquo;s architecture, its integration with Laravel and Symfony, why PHP fits so naturally into Lambda&rsquo;s execution model, and what it takes to run scalable, queue-driven applications without managing infrastructure.
 Matthieu also shares the story behind Bref Cloud - a new deployment and monitoring platform built to simplify the AWS experience for teams of all sizes, while staying open, secure, and extensible.</p>
