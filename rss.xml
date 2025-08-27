@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Wed, 20 Aug 2025 07:00:00 +0000</pubDate><lastBuildDate>Wed, 20 Aug 2025 07:17:35 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Learning Domain-Driven Design, Part 1 with Vlad Khononov</title><itunes:episode>4</itunes:episode><podcast:episode>4</podcast:episode><itunes:title>Learning Domain-Driven Design, Part 1 with Vlad Khononov</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/4/</guid><link>https://compiledconversations.com/4/</link><description>Author and trainer Vlad Khononov joins us for Part 1 of a deep dive into Domain-Driven Design (DDD). We cover what DDD is really for, why strategic DDD matters more than patterns, how to identify subdomains, the relationship between subdomains and bounded contexts, and how to make pragmatic architecture choices that align with your business.</description><content:encoded><![CDATA[<p>Vlad Khononov, author of Learning Domain-Driven Design, joins us to demystify DDD - focusing on the business first, and the code second.</p>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Wed, 27 Aug 2025 17:00:00 +0000</pubDate><lastBuildDate>Wed, 27 Aug 2025 18:17:15 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Learning Domain-Driven Design, Part 2 with Vlad Khononov</title><itunes:episode>5</itunes:episode><podcast:episode>5</podcast:episode><itunes:title>Learning Domain-Driven Design, Part 2 with Vlad Khononov</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/5/</guid><link>https://compiledconversations.com/5/</link><description>In Part 2, Vlad Khononov applies DDD in practice - covering context-mapping patterns, EventStorming, fit-for-purpose architecture, testing, team ownership, pragmatic adoption, plus AI&amp;#39;s impact on modeling.</description><content:encoded><![CDATA[<p>In Part 2 of our deep dive into Domain-Driven Design (DDD), Vlad Khononov returns to explore how to apply DDD in the real world.</p>
+<p>We move beyond the foundations and into implementation - from context mapping and EventStorming to fit-for-purpose architecture, testing, team design, ownership, pragmatic adoption, and AI&rsquo;s impact on modeling.</p>
+<p>Topics include:</p>
+<ul>
+<li>CQRS in practice</li>
+<li>Bounded contexts and subdomains: boundaries, granularity, and trade-offs</li>
+<li>Context mapping patterns: conformist, ACL, open-host, partnership, separate ways</li>
+<li>EventStorming vs Domain Storytelling</li>
+<li>Architecture patterns: Layered, Hexagonal (Ports &amp; Adapters)</li>
+<li>Implementation choices: Transaction Script, Active Record, Domain Model, Event-Sourced Domain Model</li>
+<li>Tailoring testing strategies to fit your chosen implementation pattern</li>
+<li>Teams and adoption: ownership, safe duplication, where to start, and AI&rsquo;s role</li>
+</ul>
+<p>We wrap with how to adopt DDD without overwhelming your team - focusing on shared understanding, clear ownership, and picking the simplest tools that fit your domain today while keeping tomorrow flexible.</p>
+<p><em>This is Part 2 of a 2-part series. In 
+
+<a href="/4">Part 1</a>
+, we covered the foundations: what DDD is for, subdomains and their types, ubiquitous language, bounded contexts, and making flexible architecture decisions.</em></p>
+<p><strong>Show Links</strong></p>
+<ul>
+<li>
+
+<a href="https://vladikk.com/" target="_blank">Vlad Khononov&rsquo;s Website</a>
+</li>
+<li>
+
+<a href="https://x.com/vladikk" target="_blank">Vlad Khononov on X/Twitter</a>
+</li>
+<li>
+
+<a href="https://bsky.app/profile/vladikk.bsky.social" target="_blank">Vlad Khononov on BlueSky</a>
+</li>
+<li>
+
+<a href="https://www.linkedin.com/in/vladikk/" target="_blank">Vlad Khononov on LinkedIn</a>
+</li>
+<li>
+
+<a href="https://www.oreilly.com/library/view/learning-domain-driven-design/9781098100124/" target="_blank">Vlad Khononov - Learning Domain-Driven Design</a>
+</li>
+<li>
+
+<a href="https://coupling.dev/" target="_blank">Vlad Khononov - Balancing Coupling in Software Design</a>
+</li>
+<li>
+
+<a href="https://www.eventstorming.com/" target="_blank">EventStorming</a>
+</li>
+<li>
+
+<a href="https://domainstorytelling.org/" target="_blank">Domain Storytelling</a>
+</li>
+<li>
+
+<a href="https://vladikk.com/2025/04/05/f1-ddd/" target="_blank">F1 + DDD: All Models are Wrong, Some are Dangerous</a>
+</li>
+<li>
+
+<a href="https://alistair.cockburn.us/hexagonal-architecture/" target="_blank">Hexagonal Architecture / Ports and Adapters</a>
+</li>
+<li>
+
+<a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs" target="_blank">CQRS</a>
+</li>
+<li>
+
+<a href="https://teamtopologies.com/" target="_blank">Team Topologies</a>
+</li>
+</ul>
+]]></content:encoded><pubDate>Wed, 27 Aug 2025 17:00:00 +0000</pubDate><author>Edd Mann</author><enclosure url="https://podcasts.compiledconversations.com/005-learning-domain-driven-design-part-2-with-vlad-khononov.mp3" length="47352489" type="audio/mpeg"/><itunes:author>Edd Mann</itunes:author><itunes:duration>2950</itunes:duration><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In Part 2, Vlad Khononov applies DDD in practice - covering context-mapping patterns, EventStorming, fit-for-purpose architecture, testing, team ownership, pragmatic adoption, plus AI&amp;#39;s impact on modeling.</itunes:summary><itunes:subtitle>DDD in practice: context mapping, modeling workshops, architecture, testing, team design, pragmatic adoption - plus AI's impact on modeling.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:explicit>false</itunes:explicit></item><item><title>Learning Domain-Driven Design, Part 1 with Vlad Khononov</title><itunes:episode>4</itunes:episode><podcast:episode>4</podcast:episode><itunes:title>Learning Domain-Driven Design, Part 1 with Vlad Khononov</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/4/</guid><link>https://compiledconversations.com/4/</link><description>Author and trainer Vlad Khononov joins us for Part 1 of a deep dive into Domain-Driven Design (DDD). We cover what DDD is really for, why strategic DDD matters more than patterns, how to identify subdomains, the relationship between subdomains and bounded contexts, and how to make pragmatic architecture choices that align with your business.</description><content:encoded><![CDATA[<p>Vlad Khononov, author of Learning Domain-Driven Design, joins us to demystify DDD - focusing on the business first, and the code second.</p>
 <p>We unpack what DDD is really trying to help you achieve, why strategic DDD matters most, and how concepts like subdomains, ubiquitous language, and bounded contexts can guide both architecture and team design.
 Along the way, Vlad shares pragmatic advice for avoiding common misconceptions and making choices that keep you flexible as both your product and understanding evolve.</p>
 <p>Topics include:</p>
@@ -17,7 +86,10 @@ Along the way, Vlad shares pragmatic advice for avoiding common misconceptions a
 </ul>
 <p>Vlad also shares hard-won lessons on communicating with domain experts, dealing with uncertainty in core subdomains, and why wider bounded contexts can make early-stage change safer and cheaper.</p>
 <p>This episode is packed with practical guidance for anyone trying to align architecture with real business needs - not just patterns.</p>
-<p><em>This is Part 1 of 2. In Part 2 we cover: context mapping, modeling workshops, fit-for-purpose architecture and testing, team boundaries, pragmatic adoption, and AI&rsquo;s impact on modeling.</em></p>
+<p><em>This is Part 1 of 2. In 
+
+<a href="/5">Part 2</a>
+ we cover: context mapping, modeling workshops, fit-for-purpose architecture and testing, team boundaries, pragmatic adoption, and AI&rsquo;s impact on modeling.</em></p>
 <p><strong>Show Links</strong></p>
 <ul>
 <li>
@@ -67,10 +139,6 @@ Along the way, Vlad shares pragmatic advice for avoiding common misconceptions a
 <li>
 
 <a href="https://vladikk.com/2025/05/26/with-ai-everything-is-complicated/" target="_blank">With AI, everything is so complicated&hellip; and this is great news!</a>
-</li>
-<li>
-
-<a href="https://vladikk.com/2025/04/05/f1-ddd/" target="_blank">F1 + DDD: All Models are Wrong, Some are Dangerous</a>
 </li>
 </ul>
 ]]></content:encoded><pubDate>Wed, 20 Aug 2025 07:00:00 +0000</pubDate><author>Edd Mann</author><enclosure url="https://podcasts.compiledconversations.com/004-learning-domain-driven-design-part-1-with-vlad-khononov.mp3" length="59659573" type="audio/mpeg"/><itunes:author>Edd Mann</itunes:author><itunes:duration>3719</itunes:duration><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>Author and trainer Vlad Khononov joins us for Part 1 of a deep dive into Domain-Driven Design (DDD). We cover what DDD is really for, why strategic DDD matters more than patterns, how to identify subdomains, the relationship between subdomains and bounded contexts, and how to make pragmatic architecture choices that align with your business.</itunes:summary><itunes:subtitle>Understanding domains, subdomains, ubiquitous language, and bounded contexts - plus how to apply strategic vs. tactical DDD in the real world.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:explicit>false</itunes:explicit></item><item><title>Serverless PHP with Matthieu Napoli</title><itunes:episode>3</itunes:episode><podcast:episode>3</podcast:episode><itunes:title>Serverless PHP with Matthieu Napoli</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/3/</guid><link>https://compiledconversations.com/3/</link><description>Matthieu Napoli, creator of Bref, shares how PHP found its place in serverless through AWS Lambda - and what it takes to run modern applications without managing infrastructure. We cover Bref&amp;#39;s architecture, Laravel/Symfony support, Bref Cloud, and trade-offs with containers and Kubernetes.</description><content:encoded><![CDATA[<p>Matthieu Napoli, creator of Bref, joins us to explore the journey of bringing PHP to AWS Lambda - and making serverless a reality for everyday PHP developers.
