@@ -1,4 +1,127 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Wed, 03 Sep 2025 06:00:00 +0000</pubDate><lastBuildDate>Wed, 10 Sep 2025 10:14:11 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>All Aboard the PostgreSQL Train with Bruce Momjian</title><itunes:episode>6</itunes:episode><podcast:episode>6</podcast:episode><itunes:title>All Aboard the PostgreSQL Train with Bruce Momjian</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/6/</guid><link>https://compiledconversations.com/6/</link><description>Bruce Momjian traces Postgres&amp;#39;s 39-year journey from Berkeley to today, why extensibility (PostGIS, JSON, pgvector) became its superpower, and how the community sustains momentum. We cover TDE trade-offs in core, scaling and storage realities, and decoupled storage/compute in the cloud (Aurora, Neon) - plus what it means to stay &amp;#39;on the train&amp;#39;.</description><content:encoded><![CDATA[<p>Bruce Momjian joins us to explore why PostgreSQL continues to outpace proprietary databases - not just in features, but also in its development model and architecture.</p>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Thu, 11 Sep 2025 09:00:00 +0000</pubDate><lastBuildDate>Thu, 11 Sep 2025 09:09:26 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Boosting Laravel Through AI with Ashley Hindle</title><itunes:episode>7</itunes:episode><podcast:episode>7</podcast:episode><itunes:title>Boosting Laravel Through AI with Ashley Hindle</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/7/</guid><link>https://compiledconversations.com/7/</link><description>Ashley Hindle, creator of Laravel Boost, joins us to demystify AI terminology, explore practical AI development workflows, and discuss how Laravel Boost accelerates AI-assisted development with structured guidelines, MCP tools, and version-specific documentation.</description><content:encoded><![CDATA[<p>Ashley Hindle, creator of Laravel Boost, joins us to explore the practical side of AI-assisted development - from understanding core concepts to implementing real-world solutions.</p>
+<p>We start by breaking down the AI landscape, explaining how artificial intelligence, machine learning, generative AI, and large language models connect.
+Ashley shares his journey from building AI-driven features since OpenAI&rsquo;s first API release to creating Laravel Boost, a comprehensive package that accelerates AI-assisted development in Laravel projects.</p>
+<p>The conversation covers everything from prompting techniques and context management to the Model Context Protocol (MCP) and how it enables AI agents to interact with external tools and services.
+We dive deep into Laravel Boost&rsquo;s architecture, including its 16 MCP tools for database querying, browser log monitoring, and version-specific documentation search.</p>
+<p>Topics include:</p>
+<ul>
+<li>AI fundamentals: understanding AI, ML, GenAI, and LLMs</li>
+<li>Prompting techniques: zero-shot, few-shot, chain of thought, and context engineering</li>
+<li>Retrieval Augmented Generation (RAG) and vector embeddings</li>
+<li>LLM agents: the &ldquo;fancy while loop&rdquo; that powers autonomous AI systems</li>
+<li>Model Context Protocol (MCP): enabling AI agents to access external tools</li>
+<li>Laravel Boost: structured guidelines, MCP tools, and version-specific documentation</li>
+<li>Development workflows: refactoring, bug fixes, new features, and project scaffolding</li>
+<li>Testing strategies in the AI era and why tests are more important than ever</li>
+<li>Practical advice for developers starting their AI journey</li>
+</ul>
+<p>Ashley also shares insights on the evolution from simple autocomplete to full task completion, the importance of maintaining responsibility for production code, and how to balance AI assistance with human oversight.
+We discuss the challenges of context management, the role of guidelines and rules in steering AI behavior, and the future of AI benchmarking in development.</p>
+<p>Whether you&rsquo;re new to AI or looking to optimise your development workflow, this episode provides practical guidance on integrating AI tools effectively while maintaining code quality and developer responsibility.</p>
+<p><strong>Show Links</strong></p>
+<ul>
+<li>
+
+<a href="https://ashleyhindle.com/" target="_blank">Ashley Hindle&rsquo;s Website</a>
+</li>
+<li>
+
+<a href="https://x.com/AshleyHindle" target="_blank">Ashley Hindle on X/Twitter</a>
+</li>
+<li>
+
+<a href="https://bsky.app/profile/AshleyHindle.com" target="_blank">Ashley Hindle on Bluesky</a>
+</li>
+<li>
+
+<a href="https://www.linkedin.com/in/ashleyhindle/" target="_blank">Ashley Hindle on LinkedIn</a>
+</li>
+<li>
+
+<a href="https://boost.laravel.com/" target="_blank">Laravel Boost</a>
+</li>
+<li>
+
+<a href="https://github.com/laravel/boost" target="_blank">Laravel Boost on GitHub</a>
+</li>
+<li>
+
+<a href="https://modelcontextprotocol.io/" target="_blank">Model Context Protocol (MCP)</a>
+</li>
+<li>
+
+<a href="https://ampcode.com/how-to-build-an-agent" target="_blank">How to Build an Agent</a>
+</li>
+<li>
+
+<a href="https://github.com/opencode-ai/opencode" target="_blank">OpenCode (Open Source AI Agent)</a>
+</li>
+<li>
+
+<a href="https://claude.ai/" target="_blank">Claude Desktop</a>
+</li>
+<li>
+
+<a href="https://www.anthropic.com/claude-code" target="_blank">Claude Code</a>
+</li>
+<li>
+
+<a href="https://cursor.sh/" target="_blank">Cursor IDE</a>
+</li>
+<li>
+
+<a href="https://chatgpt.com/" target="_blank">ChatGPT</a>
+</li>
+<li>
+
+<a href="https://openai.com/codex/" target="_blank">Codex</a>
+</li>
+<li>
+
+<a href="https://platform.openai.com/" target="_blank">OpenAI API</a>
+</li>
+<li>
+
+<a href="https://kiro.dev/" target="_blank">Kiro</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/@anthropic-ai" target="_blank">Anthropic&rsquo;s YouTube Channel</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/@AndrejKarpathy" target="_blank">Andrej Karpathy&rsquo;s YouTube Channel</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/watch?v=iF9iV4xponk" target="_blank">The future of agentic coding with Claude Code</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/watch?v=fGKNUvivvnc" target="_blank">Interpretability: Understanding how AI models think</a>
+</li>
+<li>
+
+<a href="https://conductor.build/" target="_blank">Conductor</a>
+</li>
+<li>
+
+<a href="https://x.com/marcelpociot/status/1955004968756281620" target="_blank">Trello board for my local projects</a>
+</li>
+<li>
+
+<a href="https://itrevolution.com/product/vibe-coding-book/" target="_blank">Vibe Coding Book (Gene Kim &amp; Steve Yegg)</a>
+</li>
+<li>
+
+<a href="https://openai.com/research/whisper" target="_blank">Whisper (Speech Recognition)</a>
+</li>
+<li>
+
+<a href="https://tiktokenizer.vercel.app/" target="_blank">Tiktokenizer</a>
+</li>
+</ul>
+]]></content:encoded><pubDate>Thu, 11 Sep 2025 09:00:00 +0000</pubDate><author>Edd Mann</author><enclosure url="https://podcasts.compiledconversations.com/007-boosting-laravel-through-ai-with-ashley-hindle.mp3" length="105417146" type="audio/mpeg"/><itunes:author>Edd Mann</itunes:author><itunes:duration>6579</itunes:duration><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>Ashley Hindle, creator of Laravel Boost, joins us to demystify AI terminology, explore practical AI development workflows, and discuss how Laravel Boost accelerates AI-assisted development with structured guidelines, MCP tools, and version-specific documentation.</itunes:summary><itunes:subtitle>Exploring AI fundamentals, Laravel Boost, and practical AI-assisted development strategies for modern developers.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:explicit>false</itunes:explicit></item><item><title>All Aboard the PostgreSQL Train with Bruce Momjian</title><itunes:episode>6</itunes:episode><podcast:episode>6</podcast:episode><itunes:title>All Aboard the PostgreSQL Train with Bruce Momjian</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/6/</guid><link>https://compiledconversations.com/6/</link><description>Bruce Momjian traces Postgres&amp;#39;s 39-year journey from Berkeley to today, why extensibility (PostGIS, JSON, pgvector) became its superpower, and how the community sustains momentum. We cover TDE trade-offs in core, scaling and storage realities, and decoupled storage/compute in the cloud (Aurora, Neon) - plus what it means to stay &amp;#39;on the train&amp;#39;.</description><content:encoded><![CDATA[<p>Bruce Momjian joins us to explore why PostgreSQL continues to outpace proprietary databases - not just in features, but also in its development model and architecture.</p>
 <p>We trace Postgres&rsquo;s 39-year lineage - from its Berkeley origins and Michael Stonebraker&rsquo;s vision for extensibility, through early debates about removing that extensibility, to the decades in which that design proved pivotal.
 That architecture has paid off repeatedly, enabling JSON/JSONB, full-text search, PostGIS, and pgvector to land at the right moments without upheaval.
 Bruce explains why transparent data encryption (TDE) hasn&rsquo;t landed in core, when sharding actually helps versus scaling up, and how storage choices (latency, power-loss protection) shape performance; we also look at async I/O in Postgres 18, extension-friendly interfaces like table access methods, and what it means to stay &lsquo;on the train&rsquo; within the community.</p>
