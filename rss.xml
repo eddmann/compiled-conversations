@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Thu, 11 Sep 2025 09:00:00 +0000</pubDate><lastBuildDate>Fri, 12 Sep 2025 07:07:50 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Boosting Laravel Through AI with Ashley Hindle</title><itunes:episode>7</itunes:episode><podcast:episode>7</podcast:episode><itunes:title>Boosting Laravel Through AI with Ashley Hindle</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/7/</guid><link>https://compiledconversations.com/7/</link><description>Ashley Hindle, creator of Laravel Boost, joins us to demystify AI terminology, explore practical AI development workflows, and discuss how Laravel Boost accelerates AI-assisted development with structured guidelines, MCP tools, and version-specific documentation.</description><content:encoded><![CDATA[<p>Ashley Hindle, creator of Laravel Boost, joins us to explore the practical side of AI-assisted development - from understanding core concepts to implementing real-world solutions.</p>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Wed, 17 Sep 2025 07:00:00 +0000</pubDate><lastBuildDate>Wed, 17 Sep 2025 07:56:01 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Domain Modeling Made Functional, Part 1 with Scott Wlaschin</title><itunes:episode>8</itunes:episode><podcast:episode>8</podcast:episode><itunes:title>Domain Modeling Made Functional, Part 1 with Scott Wlaschin</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/8/</guid><link>https://compiledconversations.com/8/</link><description>Scott Wlaschin, author of &amp;#34;Domain Modeling Made Functional&amp;#34; and creator of F# for Fun and Profit, joins us to discuss the powerful pairing of DDD and functional programming. In Part 1 we focus on DDD, covering strategic vs. tactical DDD, (sub)domains, bounded contexts, and the critical importance of listening and communication in software design.</description><content:encoded><![CDATA[<p>We&rsquo;re joined by Scott Wlaschin, author of &ldquo;Domain Modeling Made Functional&rdquo; and creator of the popular F# for Fun and Profit blog, to explore the powerful pairing of domain-driven design (DDD) and functional programming.
+In Part 1 we explore the fundamentals of DDD - not as a rigid methodology, but as a communication-first approach to building software that actually solves real problems.</p>
+<p>Scott shares his journey from Smalltalk developer to functional programming advocate, and how he discovered that DDD and functional programming are natural companions.
+We dive deep into why most software projects fail not because of technical issues, but because developers don&rsquo;t listen to what users actually want.</p>
+<p>Topics include:</p>
+<ul>
+<li>Strategic vs. tactical DDD - and why most people focus on the wrong part</li>
+<li>What domains and subdomains really are (hint: they already exist in your business)</li>
+<li>Core, supporting, and generic subdomains - and where to focus your effort</li>
+<li>Bounded contexts and why boundaries matter for both code and project management</li>
+<li>Ubiquitous language - the &rsquo;everywhere&rsquo; language or common language</li>
+<li>The &ldquo;garbage in, garbage out&rdquo; principle and why good inputs matter more than perfect code</li>
+<li>Shared mental models</li>
+<li>Event storming and domain storytelling as discovery techniques</li>
+<li>Fighting the impulse toward database-driven or class-driven design</li>
+<li>Conway&rsquo;s Law and the reverse Conway manoeuvre for team organisation</li>
+</ul>
+<p>Scott also shares practical examples from his experience, including his work at a skincare company where he became a domain expert on cosmetic formulations and built one of his most successful products through constant communication with experts.</p>
+<p>Whether you&rsquo;re new to DDD or have been burned by overly complex implementations, this episode offers a refreshing perspective on what domain-driven design really means - and why it&rsquo;s fundamentally about empathy, communication, and solving the right problems.</p>
+<p><em>This is Part 1 of a 2-part series. In Part 2, we&rsquo;ll explore functional programming concepts, how they complement DDD, and practical techniques for modeling domains functionally.</em></p>
+<p><strong>Show Links</strong></p>
+<ul>
+<li>
+
+<a href="https://scottwlaschin.com/" target="_blank">Scott Wlaschin&rsquo;s Website</a>
+</li>
+<li>
+
+<a href="https://x.com/ScottWlaschin" target="_blank">Scott Wlaschin on X/Twitter</a>
+</li>
+<li>
+
+<a href="https://bsky.app/profile/scottwlaschin.bsky.social" target="_blank">Scott Wlaschin on Bluesky</a>
+</li>
+<li>
+
+<a href="https://github.com/swlaschin" target="_blank">Scott Wlaschin on GitHub</a>
+</li>
+<li>
+
+<a href="https://fsharpforfunandprofit.com/" target="_blank">F# for Fun and Profit</a>
+</li>
+<li>
+
+<a href="https://pragprog.com/titles/swdddf/domain-modeling-made-functional/" target="_blank">Domain Modeling Made Functional</a>
+</li>
+<li>
+
+<a href="https://threedevsandamaybe.com/domain-modeling-made-functional-with-scott-wlaschin/" target="_blank">Three Devs and a Maybe - Domain Modeling Made Functional</a>
+</li>
+<li>
+
+<a href="https://www.eventstorming.com/" target="_blank">EventStorming</a>
+</li>
+<li>
+
+<a href="https://domainstorytelling.org/" target="_blank">Domain Storytelling</a>
+</li>
+<li>
+
+<a href="https://martinfowler.com/bliki/ConwaysLaw.html" target="_blank">Conway&rsquo;s Law</a>
+</li>
+<li>
+
+<a href="https://dannorth.net/blog/accelerating-agile/" target="_blank">Dan North - Accelerating Agile</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence" target="_blank">Chesterton&rsquo;s Fence</a>
+</li>
+</ul>
+]]></content:encoded><pubDate>Wed, 17 Sep 2025 07:00:00 +0000</pubDate><author>Edd Mann</author><enclosure url="https://podcasts.compiledconversations.com/008-domain-modeling-made-functional-part-1-with-scott-wlaschin.mp3" length="78345708" type="audio/mpeg"/><itunes:author>Edd Mann</itunes:author><itunes:duration>4887</itunes:duration><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>Scott Wlaschin, author of &amp;#34;Domain Modeling Made Functional&amp;#34; and creator of F# for Fun and Profit, joins us to discuss the powerful pairing of DDD and functional programming. In Part 1 we focus on DDD, covering strategic vs. tactical DDD, (sub)domains, bounded contexts, and the critical importance of listening and communication in software design.</itunes:summary><itunes:subtitle>Exploring domain-driven design fundamentals - domains, bounded contexts, ubiquitous language, and why communication is everything.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:explicit>false</itunes:explicit></item><item><title>Boosting Laravel Through AI with Ashley Hindle</title><itunes:episode>7</itunes:episode><podcast:episode>7</podcast:episode><itunes:title>Boosting Laravel Through AI with Ashley Hindle</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/7/</guid><link>https://compiledconversations.com/7/</link><description>Ashley Hindle, creator of Laravel Boost, joins us to demystify AI terminology, explore practical AI development workflows, and discuss how Laravel Boost accelerates AI-assisted development with structured guidelines, MCP tools, and version-specific documentation.</description><content:encoded><![CDATA[<p>Ashley Hindle, creator of Laravel Boost, joins us to explore the practical side of AI-assisted development - from understanding core concepts to implementing real-world solutions.</p>
 <p>We start by breaking down the AI landscape, explaining how artificial intelligence, machine learning, generative AI, and large language models connect.
 Ashley shares his journey from building AI-driven features since OpenAI&rsquo;s first API release to creating Laravel Boost, a comprehensive package that accelerates AI-assisted development in Laravel projects.</p>
 <p>The conversation covers everything from prompting techniques and context management to the Model Context Protocol (MCP) and how it enables AI agents to interact with external tools and services.
