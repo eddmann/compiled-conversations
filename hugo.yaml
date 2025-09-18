@@ -17,7 +17,7 @@ params:
   email: 'edward.mann@gmail.com'
   author_url: 'https://eddmann.com'
   audio_base_url: 'https://podcasts.compiledconversations.com/'
-  audio_analytics_prefix: ''
+  audio_analytics_prefix: 'https://podsignal.eddmann.com/s/348109d7-a90b-4f00-bc6b-6223fcd79439/r?url='
   apple_podcasts_url: 'https://podcasts.apple.com/us/podcast/compiled-conversations/id1828390930'
   spotify_url: 'https://open.spotify.com/show/4qErnd7sQYM556ntaLSKfx'
   show_notes_label: 'Show notes'
