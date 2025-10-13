@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Wed, 01 Oct 2025 07:00:00 +0000</pubDate><lastBuildDate>Wed, 01 Oct 2025 08:07:17 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>The Life of a PostgreSQL Table, Part 1 with Bruce Momjian</title><itunes:episode>10</itunes:episode><podcast:episode>10</podcast:episode><itunes:title>The Life of a PostgreSQL Table, Part 1 with Bruce Momjian</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/10/</guid><link>https://compiledconversations.com/10/</link><description>Bruce Momjian takes us on a deep dive into the lifecycle of a PostgreSQL table. We explore how tables are created, how data is inserted and stored, and how queries work - from physical storage and MVCC to constraints and query planning.</description><content:encoded><![CDATA[<p>Bruce Momjian returns to explore the internals of PostgreSQL by way of a table&rsquo;s lifecycle.
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Mon, 13 Oct 2025 15:00:00 +0000</pubDate><lastBuildDate>Mon, 13 Oct 2025 15:45:04 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>The Life of a PostgreSQL Table, Part 2 with Bruce Momjian</title><itunes:episode>11</itunes:episode><podcast:episode>11</podcast:episode><itunes:title>The Life of a PostgreSQL Table, Part 2 with Bruce Momjian</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/11/</guid><link>https://compiledconversations.com/11/</link><description>Bruce Momjian returns to complete our journey through a PostgreSQL table&amp;#39;s lifecycle. We explore how Postgres handles updates, table alterations, row deletions, and table drops - diving deep into MVCC, vacuuming, and the Write-Ahead Log.</description><content:encoded><![CDATA[<p>Bruce Momjian returns to complete our exploration of PostgreSQL internals through a table&rsquo;s lifecycle.
+From updates and alterations to deletions and drops, we dive deep into how Postgres manages data changes, maintains consistency, and handles clean-up operations, revealing the intricate mechanisms that make PostgreSQL both powerful and reliable.</p>
+<p>We examine how Postgres manages everything from transaction isolation to reclaiming space.
+Bruce explains how MVCC enables concurrent updates, how table alterations affect performance, and how the Write-Ahead Log ensures durability whilst enabling features like point-in-time recovery and replication.</p>
+<p>Topics include:</p>
+<ul>
+<li>Updates: MVCC, heap-only tuples, and how Postgres handles concurrent modifications</li>
+<li>Transaction isolation levels: read committed, repeatable read, and serializable</li>
+<li>Table alterations: lightweight vs heavyweight changes, column additions, and type changes</li>
+<li>Row deletion: transaction visibility, reclaiming space, and foreign key cascades</li>
+<li>Vacuum operations: regular vacuum vs vacuum full, and auto-vacuum scheduling</li>
+<li>Write-Ahead Log (WAL): crash recovery, point-in-time recovery, and replication</li>
+<li>Table drops: dependency tracking and cleanup operations</li>
+<li>Concurrency control: row-level locking, deadlock detection, and conflict resolution</li>
+<li>The importance of indexing foreign key columns for performance</li>
+<li>How Postgres maintains durability through careful write ordering</li>
+</ul>
+<p>Bruce also shares insights into performance optimisation, operational considerations, and the evolution of PostgreSQL&rsquo;s features over time.</p>
+<p><em>This is Part 2 of a 2-part series. In Part 1, we explored table creation, data insertion, and query execution in PostgreSQL.</em></p>
+<p><strong>Show Links</strong></p>
+<p>Bruce generously shared links to all the presentations (with direct references to the discussed slides) and blog articles mentioned in the episode. You&rsquo;ll find them below:</p>
+<ul>
+<li>
+
+<a href="https://momjian.us/" target="_blank">Bruce Momjian&rsquo;s Website</a>
+</li>
+<li>
+
+<a href="https://momjian.us/main/writings/pgsql/mvcc.pdf#page=24" target="_blank">Presentation: MVCC Unmasked (Aborted IDs Remain)</a>
+</li>
+<li>
+
+<a href="https://momjian.us/main/writings/pgsql/mvcc.pdf#page=44" target="_blank">Presentation: MVCC Unmasked (Traditional Cleanup Requirements)</a>
+</li>
+<li>
+
+<a href="https://momjian.us/main/writings/pgsql/locking.pdf#page=76" target="_blank">Presentation: Unlocking the Postgres Lock Manager (Deadlocks)</a>
+</li>
+<li>
+
+<a href="https://momjian.us/main/writings/pgsql/administration.pdf#page=85" target="_blank">Presentation: Mastering PostgreSQL Administration (Table Activity)</a>
+</li>
+<li>
+
+<a href="https://momjian.us/main/writings/pgsql/administration.pdf#page=29" target="_blank">Presentation: Mastering PostgreSQL Administration (Memory Usage)</a>
+</li>
+<li>
+
+<a href="https://momjian.us/main/writings/pgsql/administration.pdf#page=38" target="_blank">Presentation: Mastering PostgreSQL Administration (Write-Ahead Logging)</a>
+</li>
+<li>
+
+<a href="https://momjian.us/main/blogs/pgblog/2017.html#January_3_2017" target="_blank">Bruce&rsquo;s Blog: Controlling Autovacuum</a>
+</li>
+<li>
+
+<a href="https://www.postgresql.org/docs/17/sql-altertable.html" target="_blank">PostgreSQL Documentation: ALTER TABLE</a>
+</li>
+<li>
+
+<a href="https://www.postgresql.org/docs/17/ddl-depend.html" target="_blank">PostgreSQL Documentation: Dependency Tracking</a>
+</li>
+<li>
+
+<a href="https://www.postgresql.org/docs/17/continuous-archiving.html" target="_blank">PostgreSQL Documentation: Continuous Archiving and Point-in-Time Recovery</a>
+</li>
+<li>
+
+<a href="https://threedevsandamaybe.com/postgres-performance-tuning-and-query-planner-with-bruce-momjian/" target="_blank">Three Devs and a Maybe - Postgres Performance Tuning and Query Planner</a>
+</li>
+<li>
+
+<a href="https://threedevsandamaybe.com/managing-concurrency-in-postgres-with-bruce-momjian/" target="_blank">Three Devs and a Maybe - Managing Concurrency in Postgres</a>
+</li>
+</ul>
+]]></content:encoded><pubDate>Mon, 13 Oct 2025 15:00:00 +0000</pubDate><author>Edd Mann</author><enclosure url="https://podsignal.eddmann.com/s/348109d7-a90b-4f00-bc6b-6223fcd79439/r?url=https%3A%2F%2Fpodcasts.compiledconversations.com%2F011-the-life-of-a-postgresql-table-part-2-with-bruce-momjian.mp3" length="41268745" type="audio/mpeg"/><itunes:author>Edd Mann</itunes:author><itunes:duration>2569</itunes:duration><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>Bruce Momjian returns to complete our journey through a PostgreSQL table&amp;#39;s lifecycle. We explore how Postgres handles updates, table alterations, row deletions, and table drops - diving deep into MVCC, vacuuming, and the Write-Ahead Log.</itunes:summary><itunes:subtitle>Continuing our deep dive into PostgreSQL internals through the life of a table: updates, alterations, deletions, and table drops</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:explicit>false</itunes:explicit></item><item><title>The Life of a PostgreSQL Table, Part 1 with Bruce Momjian</title><itunes:episode>10</itunes:episode><podcast:episode>10</podcast:episode><itunes:title>The Life of a PostgreSQL Table, Part 1 with Bruce Momjian</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/10/</guid><link>https://compiledconversations.com/10/</link><description>Bruce Momjian takes us on a deep dive into the lifecycle of a PostgreSQL table. We explore how tables are created, how data is inserted and stored, and how queries work - from physical storage and MVCC to constraints and query planning.</description><content:encoded><![CDATA[<p>Bruce Momjian returns to explore the internals of PostgreSQL by way of a table&rsquo;s lifecycle.
 From creation through insertion to querying, we dive deep into how Postgres actually implements tables, indexes, and queries under the hood, revealing why understanding these internals helps you make better decisions as a database user.</p>
 <p>We examine how Postgres handles everything from physical storage to transaction visibility.
 Bruce explains why constraints are critical for data integrity, how MVCC enables consistent reads without blocking writes, and how the query planner makes decisions about accessing your data.</p>
