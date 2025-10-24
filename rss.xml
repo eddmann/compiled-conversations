@@ -1,4 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Mon, 13 Oct 2025 15:00:00 +0000</pubDate><lastBuildDate>Mon, 13 Oct 2025 15:45:04 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>The Life of a PostgreSQL Table, Part 2 with Bruce Momjian</title><itunes:episode>11</itunes:episode><podcast:episode>11</podcast:episode><itunes:title>The Life of a PostgreSQL Table, Part 2 with Bruce Momjian</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/11/</guid><link>https://compiledconversations.com/11/</link><description>Bruce Momjian returns to complete our journey through a PostgreSQL table&amp;#39;s lifecycle. We explore how Postgres handles updates, table alterations, row deletions, and table drops - diving deep into MVCC, vacuuming, and the Write-Ahead Log.</description><content:encoded><![CDATA[<p>Bruce Momjian returns to complete our exploration of PostgreSQL internals through a table&rsquo;s lifecycle.
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Fri, 24 Oct 2025 07:00:00 +0000</pubDate><lastBuildDate>Fri, 24 Oct 2025 12:17:53 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Building on the BEAM: Exploring Erlang and Elixir, Part 1 with Shawn McCool</title><itunes:episode>12</itunes:episode><podcast:episode>12</podcast:episode><itunes:title>Building on the BEAM: Exploring Erlang and Elixir, Part 1 with Shawn McCool</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/12/</guid><link>https://compiledconversations.com/12/</link><description>Shawn McCool shares his journey from class-oriented programming to discovering the power of Erlang and Elixir. We explore the BEAM virtual machine, process isolation, message passing, and how Erlang&amp;#39;s unique approach to fault tolerance and concurrency enables building more resilient systems.</description><content:encoded><![CDATA[<p>Shawn McCool joins us to explore the unique and powerful world of Erlang and Elixir.
+With 27 years of industry experience spanning system administration, web development, payment processing systems, and conference organisation (including DDD Europe) - Shawn shares how discovering Erlang changed his perspective on building distributed systems.</p>
+<p>We dive deep into what makes Erlang and the BEAM virtual machine special, exploring how its process-based concurrency model and &ldquo;let it crash&rdquo; philosophy enable building highly reliable systems.
+Shawn explains how Erlang&rsquo;s origins in telecom shaped its design for handling millions of concurrent connections with near real-time guarantees.</p>
+<p>Topics include:</p>
+<ul>
+<li>The BEAM virtual machine as an operating system for concurrent processes</li>
+<li>Process isolation, lightweight concurrency, and the actor model</li>
+<li>Message passing between processes and how it differs from shared state</li>
+<li>Supervision trees and the &ldquo;let it crash&rdquo; philosophy of error handling</li>
+<li>How process-level garbage collection enables consistent performance</li>
+<li>Hot code upgrades and zero-downtime deployments</li>
+<li>The difference between concurrency and parallelism</li>
+<li>Testing approaches for concurrent systems and processes</li>
+</ul>
+<p>Throughout the episode, Shawn demonstrates how Erlang and Elixir&rsquo;s unique approach fundamentally changes how we think about building systems, from state management to error handling, making certain patterns natural and elegant that would be impractical or complex in traditional object-oriented languages.</p>
+<p><em>This is Part 1 of a 2-part series. In Part 2, we&rsquo;ll explore the Elixir ecosystem, including Phoenix, Ecto, Nx, Nerves, and AI development tools.</em></p>
+<p><strong>Show Links</strong></p>
+<ul>
+<li>
+
+<a href="https://shawnmc.cool/" target="_blank">Shawn McCool&rsquo;s Website</a>
+</li>
+<li>
+
+<a href="https://x.com/shawnmccool" target="_blank">Shawn McCool on X/Twitter</a>
+</li>
+<li>
+
+<a href="https://bsky.app/profile/shawnmc.cool" target="_blank">Shawn McCool on Bluesky</a>
+</li>
+<li>
+
+<a href="https://shawnmc.cool/elixir-erlang-learning-resources/" target="_blank">Shawn McCool&rsquo;s Elixir/Erlang Learning Resources</a>
+</li>
+<li>
+
+<a href="https://www.erlang.org/" target="_blank">Erlang</a>
+</li>
+<li>
+
+<a href="https://elixir-lang.org/" target="_blank">Elixir</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/watch?v=xrIjfIjssLE" target="_blank">Erlang: The Movie</a>
+</li>
+<li>
+
+<a href="https://learnyousomeerlang.com/" target="_blank">Learn You Some Erlang</a>
+</li>
+<li>
+
+<a href="https://erlang.org/download/armstrong_thesis_2003.pdf" target="_blank">Making Reliable Distributed Systems in the Presence of Software Errors</a>
+</li>
+<li>
+
+<a href="https://www.erlang.org/doc/reference_manual/processes.html" target="_blank">Erlang Documentation - Processes</a>
+</li>
+<li>
+
+<a href="https://www.erlang.org/doc/reference_manual/distributed.html" target="_blank">Erlang Documentation - Distributed Programming</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/Actor_model" target="_blank">Actor Model (Wikipedia)</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/watch?v=hdBm4K-vvt0" target="_blank">Waterpark: Transforming Healthcare with Distributed Actors</a>
+</li>
+<li>
+
+<a href="https://gleam.run/" target="_blank">Gleam Programming Language</a>
+</li>
+<li>
+
+<a href="https://dddeurope.com/" target="_blank">Domain-Driven Design Europe Conference</a>
+</li>
+<li>
+
+<a href="https://shawnmc.cool/active-record-how-we-got-persistence-perfectly-wrong/" target="_blank">Active Record: How We Got Persistence Perfectly Wrong</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/c/EventSourcery" target="_blank">EventSourcery</a>
+</li>
+</ul>
+]]></content:encoded><pubDate>Fri, 24 Oct 2025 07:00:00 +0000</pubDate><author>Edd Mann</author><enclosure url="https://podsignal.eddmann.com/s/348109d7-a90b-4f00-bc6b-6223fcd79439/r?url=https%3A%2F%2Fpodcasts.compiledconversations.com%2F012-building-on-the-beam-exploring-erlang-and-elixir-part-1-with-shawn-mccool.mp3" length="69822191" type="audio/mpeg"/><itunes:author>Edd Mann</itunes:author><itunes:duration>4354</itunes:duration><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>Shawn McCool shares his journey from class-oriented programming to discovering the power of Erlang and Elixir. We explore the BEAM virtual machine, process isolation, message passing, and how Erlang&amp;#39;s unique approach to fault tolerance and concurrency enables building more resilient systems.</itunes:summary><itunes:subtitle>Diving into the BEAM virtual machine, the actor model, and how Erlang's unique approach to concurrency changes the way we think about building systems</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:explicit>false</itunes:explicit></item><item><title>The Life of a PostgreSQL Table, Part 2 with Bruce Momjian</title><itunes:episode>11</itunes:episode><podcast:episode>11</podcast:episode><itunes:title>The Life of a PostgreSQL Table, Part 2 with Bruce Momjian</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/11/</guid><link>https://compiledconversations.com/11/</link><description>Bruce Momjian returns to complete our journey through a PostgreSQL table&amp;#39;s lifecycle. We explore how Postgres handles updates, table alterations, row deletions, and table drops - diving deep into MVCC, vacuuming, and the Write-Ahead Log.</description><content:encoded><![CDATA[<p>Bruce Momjian returns to complete our exploration of PostgreSQL internals through a table&rsquo;s lifecycle.
 From updates and alterations to deletions and drops, we dive deep into how Postgres manages data changes, maintains consistency, and handles clean-up operations, revealing the intricate mechanisms that make PostgreSQL both powerful and reliable.</p>
 <p>We examine how Postgres manages everything from transaction isolation to reclaiming space.
 Bruce explains how MVCC enables concurrent updates, how table alterations affect performance, and how the Write-Ahead Log ensures durability whilst enabling features like point-in-time recovery and replication.</p>
