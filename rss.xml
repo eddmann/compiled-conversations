@@ -1,4 +1,142 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Thu, 13 Nov 2025 07:00:00 +0000</pubDate><lastBuildDate>Thu, 13 Nov 2025 10:32:51 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Machine Learning Fundamentals, Part 1 with Shannon Wirtz</title><itunes:episode>14</itunes:episode><podcast:episode>14</podcast:episode><itunes:title>Machine Learning Fundamentals, Part 1 with Shannon Wirtz</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/14/</guid><link>https://compiledconversations.com/14/</link><description>Shannon Wirtz, product analyst at Angi, joins us to demystify machine learning fundamentals. We explore what ML actually means, how it differs from traditional programming, and dive deep into core concepts including models, features, training data, and the various types of learning approaches.</description><content:encoded><![CDATA[<p>Shannon Wirtz, product analyst at Angi, joins us to explore the foundations of machine learning - breaking down the terminology, concepts, and approaches that form the bedrock of modern ML systems.</p>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Fri, 21 Nov 2025 07:30:00 +0000</pubDate><lastBuildDate>Fri, 21 Nov 2025 11:10:20 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Machine Learning Fundamentals, Part 2 with Shannon Wirtz</title><itunes:episode>15</itunes:episode><podcast:episode>15</podcast:episode><itunes:title>Machine Learning Fundamentals, Part 2 with Shannon Wirtz</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/15/</guid><link>https://compiledconversations.com/15/</link><description>We continue our conversation with Shannon Wirtz, diving into ensemble methods, neural networks (including CNNs, RNNs, and Transformers), model training and evaluation techniques, interpretation methods, and practical learning resources for those getting started with ML.</description><content:encoded><![CDATA[<p>We continue our exploration of machine learning fundamentals with Shannon Wirtz, diving deeper into advanced model architectures, training techniques, and evaluation methods.</p>
+<p>We start with ensemble learning - why combining multiple models often outperforms single models, and how techniques like Random Forest and XGBoost prevent overfitting through clever sampling strategies.
+From there, we explore neural networks, understanding how they learn directly from raw data through sequences of linear and nonlinear transformations.</p>
+<p>The conversation covers the evolution from convolutional neural networks (perfect for images) to recurrent neural networks (for sequences) to Transformers (the architecture behind modern LLMs).
+We dive into how Transformers revolutionized natural language processing through parallelization and attention mechanisms, enabling the large language models we see today.</p>
+<p>We then shift to the critical topic of model evaluation - exploring loss functions, gradient descent, learning rates, and the importance of proper train/validation/test splits.
+Shannon explains why you need separate validation and test sets, how k-fold cross-validation works, and the various metrics used to assess model performance beyond simple accuracy.</p>
+<p>Topics include:</p>
+<ul>
+<li>Ensemble learning: why combining models works (Random Forest, XGBoost)</li>
+<li>Neural networks: linear and nonlinear transformations, neurons, and layers</li>
+<li>Convolutional Neural Networks (CNNs): recognizing visual patterns and edges</li>
+<li>Transformers: the architecture behind modern LLMs, attention mechanisms, and why they&rsquo;re so powerful</li>
+<li>Training and evaluation: loss functions, gradient descent, and learning rates</li>
+<li>Train/validation/test splits and why you need all three</li>
+<li>K-fold cross-validation: a more robust evaluation approach</li>
+<li>Performance metrics including precision, recall, F1 score, AUC, and the confusion matrix</li>
+<li>Model interpretation: white box vs black box models</li>
+<li>Interpretation techniques including partial dependence plots, SHAP values, and individual conditional expectations</li>
+<li>Learning resources: Andrew Ng&rsquo;s courses, Kaggle, DataCamp, and hands-on projects</li>
+</ul>
+<p>Shannon also shares his personal learning journey, from rote learning to practical hands-on experience, and discusses how he learns most effectively through immediate feedback and engaging projects.</p>
+<p>Whether you&rsquo;re looking to understand how modern AI systems work or seeking practical guidance on getting started with machine learning, this episode provides both theoretical depth and practical strategies for building and evaluating ML models.</p>
+<p><em>This is Part 2 of a 2-part series. In 
+
+<a href="https://compiledconversations.com/14/" target="_blank">Part 1</a>
+, we explored the foundations of machine learning - including core concepts, terminology, different learning approaches, and fundamental model types.</em></p>
+<p><strong>Show Links</strong></p>
+<ul>
+<li>
+
+<a href="https://www.linkedin.com/in/shannon-wirtz-a8387144/" target="_blank">Shannon Wirtz on LinkedIn</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/Ensemble_learning" target="_blank">Ensemble Learning</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/Random_forest" target="_blank">Random Forest</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/XGBoost" target="_blank">XGBoost</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/Neural_network" target="_blank">Neural Networks</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/Convolutional_neural_network" target="_blank">Convolutional Neural Networks</a>
+</li>
+<li>
+
+<a href="https://github.com/deepseek-ai/DeepSeek-OCR" target="_blank">DeepSeek-OCR</a>
+</li>
+<li>
+
+<a href="https://www.image-net.org/" target="_blank">ImageNet</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/AlexNet" target="_blank">AlexNet</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/Transformer_%28machine_learning_model%29" target="_blank">Transformers</a>
+</li>
+<li>
+
+<a href="https://arxiv.org/abs/1706.03762" target="_blank">Attention Is All You Need</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/Gradient_descent" target="_blank">Gradient Descent</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/Cross-validation_%28statistics%29" target="_blank">Cross-Validation</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/Precision_and_recall" target="_blank">Precision and Recall</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/F-score" target="_blank">F1 Score</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/Receiver_operating_characteristic" target="_blank">AUC (Area Under Curve)</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/Confusion_matrix" target="_blank">Confusion Matrix</a>
+</li>
+<li>
+
+<a href="https://shap.readthedocs.io/" target="_blank">SHAP Values</a>
+</li>
+<li>
+
+<a href="https://scikit-learn.org/stable/modules/partial_dependence.html" target="_blank">Partial Dependence Plots</a>
+</li>
+<li>
+
+<a href="https://www.coursera.org/specializations/machine-learning-introduction" target="_blank">Andrew Ng&rsquo;s Machine Learning Course</a>
+</li>
+<li>
+
+<a href="https://www.deeplearning.ai/" target="_blank">DeepLearning.AI</a>
+</li>
+<li>
+
+<a href="https://www.kaggle.com/" target="_blank">Kaggle</a>
+</li>
+<li>
+
+<a href="https://www.datacamp.com/" target="_blank">DataCamp</a>
+</li>
+<li>
+
+<a href="https://www.r-project.org/" target="_blank">R Programming Language</a>
+</li>
+<li>
+
+<a href="https://anilananthaswamy.com/why-machines-learn" target="_blank">Why Machines Learn</a>
+</li>
+<li>
+
+<a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/" target="_blank">Hands-On Machine Learning</a>
+</li>
+<li>
+
+<a href="http://neuralnetworksanddeeplearning.com/" target="_blank">Neural Networks and Deep Learning</a>
+</li>
+</ul>
+]]></content:encoded><pubDate>Fri, 21 Nov 2025 07:30:00 +0000</pubDate><author>Edd Mann</author><enclosure url="https://podsignal.eddmann.com/s/348109d7-a90b-4f00-bc6b-6223fcd79439/r?url=https%3A%2F%2Fpodcasts.compiledconversations.com%2F015-machine-learning-fundamentals-part-2-with-shannon-wirtz.mp3" length="64526148" type="audio/mpeg"/><itunes:author>Edd Mann</itunes:author><itunes:duration>4023</itunes:duration><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>We continue our conversation with Shannon Wirtz, diving into ensemble methods, neural networks (including CNNs, RNNs, and Transformers), model training and evaluation techniques, interpretation methods, and practical learning resources for those getting started with ML.</itunes:summary><itunes:subtitle>Exploring ensemble learning, neural networks, model evaluation, and practical strategies for getting started with machine learning</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:explicit>false</itunes:explicit></item><item><title>Machine Learning Fundamentals, Part 1 with Shannon Wirtz</title><itunes:episode>14</itunes:episode><podcast:episode>14</podcast:episode><itunes:title>Machine Learning Fundamentals, Part 1 with Shannon Wirtz</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/14/</guid><link>https://compiledconversations.com/14/</link><description>Shannon Wirtz, product analyst at Angi, joins us to demystify machine learning fundamentals. We explore what ML actually means, how it differs from traditional programming, and dive deep into core concepts including models, features, training data, and the various types of learning approaches.</description><content:encoded><![CDATA[<p>Shannon Wirtz, product analyst at Angi, joins us to explore the foundations of machine learning - breaking down the terminology, concepts, and approaches that form the bedrock of modern ML systems.</p>
 <p>We start by understanding what machine learning actually means in practice, how it differs from traditional rules-based programming, and where it fits within the broader landscape of AI and deep learning.
 Shannon shares insights from his experience working with ML models in his professional work, from predicting customer behavior to classification tasks.</p>
 <p>The conversation covers everything from the fundamental building blocks (models, features, training sets) to the different paradigms of learning - supervised, unsupervised, semi-supervised, self-supervised, and reinforcement learning.
@@ -23,7 +161,10 @@ We explore why generalization is critical, how bias and variance affect model pe
 </ul>
 <p>Shannon also shares practical examples from his work, including predicting tradesperson behavior, handling missing data, and the importance of understanding your data&rsquo;s context and history before training models.</p>
 <p>Whether you&rsquo;re new to machine learning or looking to solidify your understanding of the fundamentals, this episode provides a comprehensive foundation for understanding how ML systems work and why certain approaches are chosen for different problems.</p>
-<p><em>This is Part 1 of a 2-part series. In Part 2, we&rsquo;ll explore ensemble learning, neural networks, model training and evaluation, interpretation techniques, and practical learning resources.</em></p>
+<p><em>This is Part 1 of a 2-part series. In 
+
+<a href="https://compiledconversations.com/15/" target="_blank">Part 2</a>
+, we&rsquo;ll explore ensemble learning, neural networks, model training and evaluation, interpretation techniques, and practical learning resources.</em></p>
 <p><strong>Show Links</strong></p>
 <ul>
 <li>
