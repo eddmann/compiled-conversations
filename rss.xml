@@ -1,4 +1,114 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2025 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Fri, 12 Dec 2025 07:00:00 +0000</pubDate><lastBuildDate>Fri, 12 Dec 2025 12:53:05 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Building Event Catalog: From AWS to Solo Bootstrapping with David Boyne</title><itunes:episode>16</itunes:episode><podcast:episode>16</podcast:episode><itunes:title>Building Event Catalog: From AWS to Solo Bootstrapping with David Boyne</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/16/</guid><link>https://compiledconversations.com/16/</link><description>David Boyne joins us to share his journey from AWS serverless advocate to solo bootstrapper building Event Catalog. We explore event-driven architecture governance challenges, the transition to full-time open source work, building for developers, and how AI is changing architecture documentation.</description><content:encoded><![CDATA[<p>David Boyne joins us to share his journey from AWS serverless advocate to solo bootstrapper building Event Catalog, an open source tool bringing discoverability to event-driven architectures.</p>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2026 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Fri, 16 Jan 2026 06:00:00 +0000</pubDate><lastBuildDate>Fri, 16 Jan 2026 06:26:03 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Event Sourcing with Shawn McCool</title><itunes:episode>17</itunes:episode><podcast:episode>17</podcast:episode><itunes:title>Event Sourcing with Shawn McCool</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/17/</guid><link>https://compiledconversations.com/17/</link><description>Shawn McCool returns to discuss event sourcing in depth. We explore what event sourcing really means, how it differs from event-driven architectures, the relationship with CQRS and DDD, and practical strategies for building evolvable systems with short-lived aggregates.</description><content:encoded><![CDATA[<p>Shawn McCool returns to the podcast to explore event sourcing - a pattern that fundamentally changed how he thinks about modeling software systems.</p>
+<p>We start by tracing Shawn&rsquo;s journey into event sourcing, beginning with his work on Laravel.io around 2012 when a friend introduced him to domain events.
+This discovery led him deeper into the DDD community and eventually to creating Event Sourcery, a free video course on domain modeling and event sourcing.
+Shawn shares how working with event sourcing broke him out of the &ldquo;way we&rsquo;ve always done it&rdquo; mindset.</p>
+<p>The conversation covers the core concepts - what event sourcing actually means (using events as the source of your model state), how it differs from event streaming and event-driven architectures, and when you might choose this approach.
+We explore the relationship between event sourcing and CQRS, discussing how separating read and write models enables independent evolution and scaling, while acknowledging the trade-offs around eventual consistency.</p>
+<p>Topics include:</p>
+<ul>
+<li>What event sourcing means: events as the core of your model state</li>
+<li>The distinction between event sourcing, event streaming, and event-driven architectures</li>
+<li>Domain events versus CRUD: capturing intent and context</li>
+<li>CQRS: separating decision-making models from read models</li>
+<li>Eventual consistency: trade-offs between reliability and immediate feedback</li>
+<li>Synchronous versus asynchronous projections</li>
+<li>Why DDD isn&rsquo;t a specific methodology but a pursuit of understanding</li>
+<li>Aggregates as lifecycles, not nouns - designing for short-lived event streams</li>
+<li>The bank account anti-pattern: why long-running aggregates are problematic</li>
+<li>Testing event sourced systems: given-when-then with events</li>
+<li>Projections as pure, side-effect-free transformations</li>
+<li>Versioning strategies and avoiding the pain of long-lived aggregates</li>
+<li>GDPR and data retention: designing systems that don&rsquo;t need to keep data forever</li>
+<li>Implementation approaches: relational databases versus dedicated event stores</li>
+<li>Rolling your own versus using frameworks like EventSauce or Marten</li>
+</ul>
+<p>Shawn emphasizes how building systems around short-lived aggregates - where event streams naturally terminate - eliminates entire classes of versioning and data retention problems.
+He shares insights from his work at a payment processing company, where the system is designed so that event streams exhaust within 30 minutes, making evolution and versioning remarkably straightforward.</p>
+<p>Throughout the conversation, Shawn demonstrates how stepping away from noun-centric thinking and embracing events as the core building block leads to systems that are easier to understand, test, and evolve.</p>
+<p><strong>Show Links</strong></p>
+<ul>
+<li>
+
+<a href="https://shawnmc.cool/" target="_blank">Shawn McCool&rsquo;s Website</a>
+</li>
+<li>
+
+<a href="https://x.com/ShawnMcCool" target="_blank">Shawn McCool on X/Twitter</a>
+</li>
+<li>
+
+<a href="https://www.linkedin.com/in/shawnmccool/" target="_blank">Shawn McCool on LinkedIn</a>
+</li>
+<li>
+
+<a href="https://github.com/ShawnMcCool" target="_blank">Shawn McCool on GitHub</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/@EventSourcery" target="_blank">Event Sourcery</a>
+</li>
+<li>
+
+<a href="https://laravel.io/" target="_blank">Laravel.io Community Portal</a>
+</li>
+<li>
+
+<a href="https://www.domainlanguage.com/ddd/blue-book/" target="_blank">Domain-Driven Design: Tackling Complexity in the Heart of Software by Eric Evans (Blue Book)</a>
+</li>
+<li>
+
+<a href="https://www.oreilly.com/library/view/implementing-domain-driven-design/9780133039900/" target="_blank">Implementing Domain-Driven Design by Vaughn Vernon (Red Book)</a>
+</li>
+<li>
+
+<a href="https://leanpub.com/esversioning" target="_blank">Versioning in an Event Sourced System by Greg Young</a>
+</li>
+<li>
+
+<a href="https://compiledconversations.com/12/" target="_blank">Building on the BEAM: Exploring Erlang and Elixir, Part 1 with Shawn McCool</a>
+</li>
+<li>
+
+<a href="https://compiledconversations.com/13/" target="_blank">Building on the BEAM: Exploring Erlang and Elixir, Part 2 with Shawn McCool</a>
+</li>
+<li>
+
+<a href="https://martinfowler.com/bliki/CQRS.html" target="_blank">CQRS Pattern</a>
+</li>
+<li>
+
+<a href="https://martinfowler.com/eaaDev/EventSourcing.html" target="_blank">Event Sourcing Pattern</a>
+</li>
+<li>
+
+<a href="https://www.eventstorming.com/" target="_blank">EventStorming</a>
+</li>
+<li>
+
+<a href="https://eventsauce.io/" target="_blank">EventSauce - PHP Event Sourcing Library</a>
+</li>
+<li>
+
+<a href="https://martendb.io/" target="_blank">Marten - .NET Event Store on PostgreSQL</a>
+</li>
+<li>
+
+<a href="https://www.kurrent.io/" target="_blank">Kurrent (formerly Event Store DB)</a>
+</li>
+<li>
+
+<a href="https://en.wikipedia.org/wiki/Shuhari" target="_blank">Shuhari - Japanese Training Philosophy</a>
+</li>
+<li>
+
+<a href="https://verraes.net/2019/06/talk-temporal-modelling/" target="_blank">Temporal Modelling by Mathias Verraes</a>
+</li>
+<li>
+
+<a href="https://shawnmc.cool/active-record-how-we-got-persistence-perfectly-wrong/" target="_blank">Active Record: How We Got Persistence Perfectly Wrong</a>
+</li>
+</ul>
+]]></content:encoded><pubDate>Fri, 16 Jan 2026 06:00:00 +0000</pubDate><author>Edd Mann</author><enclosure url="https://podsignal.eddmann.com/s/348109d7-a90b-4f00-bc6b-6223fcd79439/r?url=https%3A%2F%2Fpodcasts.compiledconversations.com%2F017-event-sourcing-with-shawn-mccool.mp3" length="118676892" type="audio/mpeg"/><itunes:author>Edd Mann</itunes:author><itunes:duration>7407</itunes:duration><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>Shawn McCool returns to discuss event sourcing in depth. We explore what event sourcing really means, how it differs from event-driven architectures, the relationship with CQRS and DDD, and practical strategies for building evolvable systems with short-lived aggregates.</itunes:summary><itunes:subtitle>Exploring event sourcing fundamentals, CQRS, eventual consistency, and how modeling with events changes the way we build and evolve software systems</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:explicit>false</itunes:explicit></item><item><title>Building Event Catalog: From AWS to Solo Bootstrapping with David Boyne</title><itunes:episode>16</itunes:episode><podcast:episode>16</podcast:episode><itunes:title>Building Event Catalog: From AWS to Solo Bootstrapping with David Boyne</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/16/</guid><link>https://compiledconversations.com/16/</link><description>David Boyne joins us to share his journey from AWS serverless advocate to solo bootstrapper building Event Catalog. We explore event-driven architecture governance challenges, the transition to full-time open source work, building for developers, and how AI is changing architecture documentation.</description><content:encoded><![CDATA[<p>David Boyne joins us to share his journey from AWS serverless advocate to solo bootstrapper building Event Catalog, an open source tool bringing discoverability to event-driven architectures.</p>
 <p>We start by exploring David&rsquo;s background at AWS, where he spent over two years as a serverless advocate focusing on event architectures, EventBridge, and helping customers navigate the complexities of distributed systems.
 He shares insights into the problems he consistently saw teams struggling with as they scaled their event-driven systems, particularly around governance and discoverability - noting that event architectures are still 10-15 years behind API documentation, with most organizations lacking machine-readable specifications for their events.</p>
 <p>Seeing these governance challenges repeatedly, David made the decision to leave AWS and pursue Event Catalog full-time as a solo bootstrapper.
