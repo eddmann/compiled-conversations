@@ -1,4 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2026 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Fri, 16 Jan 2026 06:00:00 +0000</pubDate><lastBuildDate>Fri, 16 Jan 2026 06:26:03 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Event Sourcing with Shawn McCool</title><itunes:episode>17</itunes:episode><podcast:episode>17</podcast:episode><itunes:title>Event Sourcing with Shawn McCool</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/17/</guid><link>https://compiledconversations.com/17/</link><description>Shawn McCool returns to discuss event sourcing in depth. We explore what event sourcing really means, how it differs from event-driven architectures, the relationship with CQRS and DDD, and practical strategies for building evolvable systems with short-lived aggregates.</description><content:encoded><![CDATA[<p>Shawn McCool returns to the podcast to explore event sourcing - a pattern that fundamentally changed how he thinks about modeling software systems.</p>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2026 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Wed, 28 Jan 2026 07:00:00 +0000</pubDate><lastBuildDate>Wed, 28 Jan 2026 14:25:01 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Architecture Modernization with Nick Tune</title><itunes:episode>18</itunes:episode><podcast:episode>18</podcast:episode><itunes:title>Architecture Modernization with Nick Tune</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/18/</guid><link>https://compiledconversations.com/18/</link><description>Nick Tune, author of Architecture Modernization and Staff Engineer at Payfit, joins us to discuss the challenges and strategies of modernising legacy systems. We explore the four pillars of successful modernisation, socio-technical alignment, team topologies, domain modeling, and how AI tools like Claude Code are transforming architecture work.</description><content:encoded><![CDATA[<p>Nick Tune, author of Architecture Modernization and Staff Engineer at PayFit, joins us to explore the complex world of modernising legacy systems.</p>
+<p>We start by reframing legacy systems as successful products asked to solve problems they weren&rsquo;t designed for.
+Nick introduces his four-pillar modernisation framework and the concept of &ldquo;Death Valley&rdquo; - the dangerous hybrid state during migration.
+We explore socio-technical alignment, how domain models drift from business language over time, and how team structure shapes architecture through Conway&rsquo;s Law.
+The conversation also covers how AI tools like Claude Code are transforming architecture work through code analysis, refactoring, and living documentation.</p>
+<p>Topics include:</p>
+<ul>
+<li>Reframing legacy as successful systems outgrowing their design</li>
+<li>Four pillars: business/strategy, design/discovery, architecture, execution</li>
+<li>Month three milestone: balancing analysis with demonstrable progress</li>
+<li>Death Valley: dangerous hybrid state during migration</li>
+<li>Semantic drift: business terminology vs code terminology</li>
+<li>Conway&rsquo;s Law: team structure mirroring software architecture</li>
+<li>Architecture Modernization Enabling Teams (AMET)</li>
+<li>Platform as product: standardisation vs developer experience</li>
+<li>Using Claude Code for analysis, refactoring, living documentation</li>
+<li>Guardrails: linting, test coverage, complexity limits for AI agents</li>
+<li>Multi-agent workflows running in parallel</li>
+</ul>
+<p>Throughout the conversation, Nick demonstrates how architecture modernisation is fundamentally about aligning business needs, team structures, and technical systems - and how AI tools are becoming essential for understanding, documenting, and evolving complex codebases.</p>
+<p><strong>Show Links</strong></p>
+<ul>
+<li>
+
+<a href="https://nick-tune.me/" target="_blank">Nick Tune</a>
+</li>
+<li>
+
+<a href="https://www.linkedin.com/in/nick-tune/" target="_blank">Nick Tune on LinkedIn</a>
+</li>
+<li>
+
+<a href="https://bsky.app/profile/nick-tune.me" target="_blank">Nick Tune on Bluesky</a>
+</li>
+<li>
+
+<a href="https://github.com/ntcoding" target="_blank">Nick Tune on GitHub</a>
+</li>
+<li>
+
+<a href="https://www.manning.com/books/architecture-modernization" target="_blank">Architecture Modernization</a>
+</li>
+<li>
+
+<a href="https://legacy-modernization.io/" target="_blank">Legacy-Modernization.io</a>
+</li>
+<li>
+
+<a href="https://living-architecture.dev/" target="_blank">Living Architecture</a>
+</li>
+<li>
+
+<a href="https://nick-tune.me/blog/2025-11-01-software-architecture-as-living-documentation-series-index-p/" target="_blank">Software Architecture as Living Documentation Series</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/watch?v=Ah-X2wvxzes" target="_blank">The Long Journey of Legacy Modernization</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/watch?v=DwAI2NqscMo" target="_blank">Architecture Modernization: Aligning Software, Strategy &amp; Structure - GOTO 2024</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/watch?v=sDLGB6VWrDg" target="_blank">Architecture Modernization with Nick Tune &amp; Eduardo da Silva - GOTO 2024</a>
+</li>
+<li>
+
+<a href="https://teamtopologies.com/book" target="_blank">Team Topologies</a>
+</li>
+<li>
+
+<a href="https://learnwardleymapping.com/" target="_blank">Wardley Mapping</a>
+</li>
+<li>
+
+<a href="https://martinfowler.com/bliki/ConwaysLaw.html" target="_blank">Conway&rsquo;s Law</a>
+</li>
+<li>
+
+<a href="https://backstage.io/" target="_blank">Spotify Backstage</a>
+</li>
+<li>
+
+<a href="https://github.com/NTCoding/claude-skillz" target="_blank">Nick&rsquo;s Claude Code Skills</a>
+</li>
+<li>
+
+<a href="https://agents.md/" target="_blank">AGENTS.md Standard</a>
+</li>
+<li>
+
+<a href="https://ts-morph.com/" target="_blank">TS Morph - TypeScript Compiler API Wrapper</a>
+</li>
+<li>
+
+<a href="https://bugmagnet.org/" target="_blank">Bug Magnet by Gojko Adzic</a>
+</li>
+</ul>
+]]></content:encoded><pubDate>Wed, 28 Jan 2026 07:00:00 +0000</pubDate><author>Edd Mann</author><enclosure url="https://podsignal.eddmann.com/s/348109d7-a90b-4f00-bc6b-6223fcd79439/r?url=https%3A%2F%2Fpodcasts.compiledconversations.com%2F018-architecture-modernization-with-nick-tune.mp3" length="101570828" type="audio/mpeg"/><itunes:author>Edd Mann</itunes:author><itunes:duration>6338</itunes:duration><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>Nick Tune, author of Architecture Modernization and Staff Engineer at Payfit, joins us to discuss the challenges and strategies of modernising legacy systems. We explore the four pillars of successful modernisation, socio-technical alignment, team topologies, domain modeling, and how AI tools like Claude Code are transforming architecture work.</itunes:summary><itunes:subtitle>Exploring architecture modernisation strategies, socio-technical alignment, team topologies, domain modeling, and using AI to accelerate architectural transformation</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:explicit>false</itunes:explicit></item><item><title>Event Sourcing with Shawn McCool</title><itunes:episode>17</itunes:episode><podcast:episode>17</podcast:episode><itunes:title>Event Sourcing with Shawn McCool</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/17/</guid><link>https://compiledconversations.com/17/</link><description>Shawn McCool returns to discuss event sourcing in depth. We explore what event sourcing really means, how it differs from event-driven architectures, the relationship with CQRS and DDD, and practical strategies for building evolvable systems with short-lived aggregates.</description><content:encoded><![CDATA[<p>Shawn McCool returns to the podcast to explore event sourcing - a pattern that fundamentally changed how he thinks about modeling software systems.</p>
 <p>We start by tracing Shawn&rsquo;s journey into event sourcing, beginning with his work on Laravel.io around 2012 when a friend introduced him to domain events.
 This discovery led him deeper into the DDD community and eventually to creating Event Sourcery, a free video course on domain modeling and event sourcing.
 Shawn shares how working with event sourcing broke him out of the &ldquo;way we&rsquo;ve always done it&rdquo; mindset.</p>
