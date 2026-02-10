@@ -1,4 +1,132 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2026 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Wed, 28 Jan 2026 07:00:00 +0000</pubDate><lastBuildDate>Wed, 28 Jan 2026 14:25:01 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>Architecture Modernization with Nick Tune</title><itunes:episode>18</itunes:episode><podcast:episode>18</podcast:episode><itunes:title>Architecture Modernization with Nick Tune</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/18/</guid><link>https://compiledconversations.com/18/</link><description>Nick Tune, author of Architecture Modernization and Staff Engineer at Payfit, joins us to discuss the challenges and strategies of modernising legacy systems. We explore the four pillars of successful modernisation, socio-technical alignment, team topologies, domain modeling, and how AI tools like Claude Code are transforming architecture work.</description><content:encoded><![CDATA[<p>Nick Tune, author of Architecture Modernization and Staff Engineer at PayFit, joins us to explore the complex world of modernising legacy systems.</p>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://compiledconversations.com/rss.xsl"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0"><channel><atom:link rel="self" type="application/atom+xml" href="https://compiledconversations.com/rss.xml" title="MP3 Audio"/><atom:link rel="hub" href="https://pubsubhubbub.appspot.com/"/><title>Compiled Conversations</title><description>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</description><copyright>© 2026 Edd Mann</copyright><podcast:guid>https://compiledconversations.com/</podcast:guid><podcast:locked owner="edward.mann@gmail.com">no</podcast:locked><language>en</language><pubDate>Tue, 10 Feb 2026 07:00:00 +0000</pubDate><lastBuildDate>Tue, 10 Feb 2026 16:59:22 +0000</lastBuildDate><link>https://compiledconversations.com/</link><image><url>https://compiledconversations.com/album-art.jpg</url><title>Compiled Conversations</title><link>https://compiledconversations.com/</link></image><itunes:category text="Technology"/><itunes:type>episodic</itunes:type><itunes:author>Edd Mann</itunes:author><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>In-depth conversations with the people shaping software and technology. Each episode explores real-world experiences, technical challenges, and the thinking behind the tools, systems, and decisions that drive modern development. From engineering practices to architectural choices, this is a show for developers who care about how software is built - and who's building it.</itunes:summary><itunes:subtitle>Conversations with the people shaping software and technology.</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:owner><itunes:name>Edd Mann</itunes:name><itunes:email>edward.mann@gmail.com</itunes:email></itunes:owner><itunes:complete>No</itunes:complete><itunes:explicit>false</itunes:explicit><item><title>From Linguistics to Large Language Models with Chris Brousseau</title><itunes:episode>19</itunes:episode><podcast:episode>19</podcast:episode><itunes:title>From Linguistics to Large Language Models with Chris Brousseau</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/19/</guid><link>https://compiledconversations.com/19/</link><description>Chris Brousseau, co-author of LLMs in Production and VP of AI at Veox AI, joins us to peek under the hood of large language models. We explore the journey from linguistics to machine learning, what LLMs can and can&amp;#39;t do with meaning, the gap between demos and production systems, and where agents and context engineering are heading.</description><content:encoded><![CDATA[<p>Chris Brousseau, co-author of LLMs in Production and VP of AI at Veox AI, joins us to peek under the hood of large language models and explore why getting them into production remains one of the hardest challenges in the field.</p>
+<p>We start with Chris&rsquo;s journey from linguistics and translation into machine learning, tracing how a graduate seminar on Python and machine translation in 2017 led him into the world of NLP.
+His background in semiotics and how meaning is created in language provides a grounding for understanding what LLMs can and can&rsquo;t do - and why they produce useful results despite having no understanding of semantics.</p>
+<p>From there, we dive into the fundamentals - transformers, tokenization, word embeddings, context windows, and the training pipeline from self-supervised learning through reinforcement learning (PPO and GRPO) to supervised fine-tuning.
+Chris shares lessons from deploying billion-parameter models at MasterCard and JP Morgan Chase, including the gap between demos and production systems and the operational challenges that come with deploying models at scale.</p>
+<p>We also explore hallucinations, the evolution from prompt engineering to context engineering, how logic manipulation and context-free grammars can make a 2023-era 7B model outperform frontier models at math, and where agents and code-based tool calling are heading in 2026.</p>
+<p>Topics include:</p>
+<ul>
+<li>Chris&rsquo;s journey from linguistics and translation into machine learning</li>
+<li>The gap between demos and production: why deploying LLMs is uniquely hard</li>
+<li>What LLMs actually are: autoregressive transformers, tokenization, embeddings, and context windows</li>
+<li>Stochastic parrots and semiotics: why LLMs have syntax but no semantics</li>
+<li>Emergent behavior and the key insights of the Attention is All You Need paper</li>
+<li>The training pipeline: self-supervised learning, RLHF (PPO vs GRPO), and supervised fine-tuning</li>
+<li>Hallucinations and the fundamental challenge of evaluating language model outputs</li>
+<li>From prompt engineering to context engineering</li>
+<li>Logic manipulation and context-free grammars: making small models outperform frontier ones</li>
+<li>LoRA, distillation, and quantization: running and adapting your own models</li>
+<li>Agents, Code Mode versus MCP, and practical techniques for running your own models</li>
+</ul>
+<p>Throughout the conversation, Chris demonstrates how a linguistics background provides a unique lens for understanding both the strengths and fundamental limitations of large language models - and why bridging the gap between language research and computer science could unlock the next wave of progress.</p>
+<p><strong>Show Links</strong></p>
+<ul>
+<li>
+
+<a href="https://www.linkedin.com/in/chris-brousseau/" target="_blank">Chris Brousseau on LinkedIn</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/@IMJONEZZ" target="_blank">Chris Brousseau on YouTube (IMJONEZZ)</a>
+</li>
+<li>
+
+<a href="https://github.com/IMJONEZZ" target="_blank">Chris Brousseau on GitHub (IMJONEZZ)</a>
+</li>
+<li>
+
+<a href="https://huggingface.co/IMJONEZZ" target="_blank">Chris Brousseau on Hugging Face (IMJONEZZ)</a>
+</li>
+<li>
+
+<a href="https://www.manning.com/books/llms-in-production" target="_blank">LLMs in Production (Manning)</a>
+</li>
+<li>
+
+<a href="https://veox.ai/" target="_blank">Veox AI</a>
+</li>
+<li>
+
+<a href="https://arxiv.org/abs/1706.03762" target="_blank">Attention is All You Need (2017)</a>
+</li>
+<li>
+
+<a href="https://arxiv.org/abs/2203.15556" target="_blank">Training Compute-Optimal Large Language Models (Chinchilla Paper)</a>
+</li>
+<li>
+
+<a href="https://arxiv.org/abs/1301.3781" target="_blank">Word2Vec</a>
+</li>
+<li>
+
+<a href="https://openai.com/index/better-language-models/" target="_blank">GPT-2 (OpenAI)</a>
+</li>
+<li>
+
+<a href="https://www.deepseek.com/" target="_blank">DeepSeek</a>
+</li>
+<li>
+
+<a href="https://arxiv.org/abs/2402.03300" target="_blank">DeepSeekMath: GRPO Paper</a>
+</li>
+<li>
+
+<a href="https://github.com/openai/grade-school-math" target="_blank">GSM8K: Grade School Math Dataset</a>
+</li>
+<li>
+
+<a href="https://dspy.ai/" target="_blank">DSPy</a>
+</li>
+<li>
+
+<a href="https://moonshotai.github.io/Kimi-K2/" target="_blank">Kimi K2 by Moonshot AI</a>
+</li>
+<li>
+
+<a href="https://github.com/THUDM" target="_blank">GLM by Zhipu AI</a>
+</li>
+<li>
+
+<a href="https://github.com/vllm-project/vllm" target="_blank">vLLM</a>
+</li>
+<li>
+
+<a href="https://lmstudio.ai/" target="_blank">LM Studio</a>
+</li>
+<li>
+
+<a href="https://github.com/ggml-org/llama.cpp" target="_blank">llama.cpp</a>
+</li>
+<li>
+
+<a href="https://huggingface.co/docs/smolagents/en/index" target="_blank">Hugging Face smolagents</a>
+</li>
+<li>
+
+<a href="https://www.anthropic.com/engineering/code-execution-with-mcp" target="_blank">Code Execution with MCP (Anthropic)</a>
+</li>
+<li>
+
+<a href="https://modelcontextprotocol.io/" target="_blank">MCP (Model Context Protocol)</a>
+</li>
+<li>
+
+<a href="https://frame.work/desktop" target="_blank">Framework Desktop</a>
+</li>
+<li>
+
+<a href="https://www.nvidia.com/en-us/products/workstations/dgx-spark/" target="_blank">NVIDIA DGX Spark</a>
+</li>
+<li>
+
+<a href="https://www.youtube.com/watch?v=LvNAjJIeLz8" target="_blank">I spent $17k on AI hardware so you don&rsquo;t have to (YouTube)</a>
+</li>
+<li>
+
+<a href="https://forgeutah.tech/" target="_blank">Forge Utah Community</a>
+</li>
+</ul>
+]]></content:encoded><pubDate>Tue, 10 Feb 2026 07:00:00 +0000</pubDate><author>Edd Mann</author><enclosure url="https://podsignal.eddmann.com/s/348109d7-a90b-4f00-bc6b-6223fcd79439/r?url=https%3A%2F%2Fpodcasts.compiledconversations.com%2F019-from-linguistics-to-large-language-models-with-chris-brousseau.mp3" length="93039043" type="audio/mpeg"/><itunes:author>Edd Mann</itunes:author><itunes:duration>5805</itunes:duration><itunes:image href="https://compiledconversations.com/album-art.jpg"/><itunes:summary>Chris Brousseau, co-author of LLMs in Production and VP of AI at Veox AI, joins us to peek under the hood of large language models. We explore the journey from linguistics to machine learning, what LLMs can and can&amp;#39;t do with meaning, the gap between demos and production systems, and where agents and context engineering are heading.</itunes:summary><itunes:subtitle>Exploring what LLMs actually are under the hood, why production deployment is so challenging, and how linguistics illuminates the fundamental limits and possibilities of language models</itunes:subtitle><itunes:keywords>software development, technology, programming, engineering, developers</itunes:keywords><itunes:explicit>false</itunes:explicit></item><item><title>Architecture Modernization with Nick Tune</title><itunes:episode>18</itunes:episode><podcast:episode>18</podcast:episode><itunes:title>Architecture Modernization with Nick Tune</itunes:title><itunes:episodeType>full</itunes:episodeType><guid isPermaLink="false">https://compiledconversations.com/18/</guid><link>https://compiledconversations.com/18/</link><description>Nick Tune, author of Architecture Modernization and Staff Engineer at Payfit, joins us to discuss the challenges and strategies of modernising legacy systems. We explore the four pillars of successful modernisation, socio-technical alignment, team topologies, domain modeling, and how AI tools like Claude Code are transforming architecture work.</description><content:encoded><![CDATA[<p>Nick Tune, author of Architecture Modernization and Staff Engineer at PayFit, joins us to explore the complex world of modernising legacy systems.</p>
 <p>We start by reframing legacy systems as successful products asked to solve problems they weren&rsquo;t designed for.
 Nick introduces his four-pillar modernisation framework and the concept of &ldquo;Death Valley&rdquo; - the dangerous hybrid state during migration.
 We explore socio-technical alignment, how domain models drift from business language over time, and how team structure shapes architecture through Conway&rsquo;s Law.
